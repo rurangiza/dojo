@@ -1,0 +1,58 @@
+/* Global styling */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #f34e0f;
+  color: white;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: rgba(255, 255, 255, 0.685);
+}
+p::selection,
+h2::selection,
+h1::selection,
+a::selection {
+  background: #232e21;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+a:hover {
+  color: white;
+}
+a:visited {
+  color: rgba(255, 255, 255, 0.685);
+}
+
+/* Blocks */
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+section {
+  margin: 50px 0;
+}
