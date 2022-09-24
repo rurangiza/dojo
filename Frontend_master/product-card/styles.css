@@ -52,7 +52,7 @@ a {
 }
 
 .cover {
-    background: url("/images/image-product-desktop.jpg") var(--grayish-blue);
+    background: url("./images/image-product-desktop.jpg") var(--grayish-blue);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
