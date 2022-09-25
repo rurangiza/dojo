@@ -1,6 +1,8 @@
+/* IMPORTING FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
+/* GENERAL SETTINGS */
 html {
   --cyan: hsl(158, 36%, 37%);
   --cyan-dark: hsla(158, 36%, 24%, 1);
@@ -13,7 +15,7 @@ html {
 
 body {
   margin: 0px;
-  padding: 0px;
+  padding: 0px 20px;
   box-sizing: border-box;
   font-family: "Montserrat";
   background-color: var(--cream);
@@ -43,6 +45,7 @@ a {
     text-decoration: none;
 }
 
+/* CARD COMPONENT */
 .card {
     width: 550px;
     background-color: white;
@@ -50,7 +53,7 @@ a {
     border-radius: 10px;
     overflow: hidden;
 }
-
+/* Featured image */
 .cover {
     background: url("./images/image-product-desktop.jpg") var(--grayish-blue);
     background-position: center;
@@ -58,7 +61,7 @@ a {
     background-repeat: no-repeat;
     width: 160%;
 }
-
+/* Product description */
 .description {
     padding: 20px 25px;
 }
@@ -106,20 +109,17 @@ a {
     background-color: var(--cyan-dark);
 }
 
-.btn p {
-    color: var(--white);
-}
 .btn img {
     margin-right: 10px;
 }
 
-/* mobile view */
+.btn p {
+    color: var(--white);
+}
+
+/* MOBILE VIEW */
 @media (max-width: 375px) {
     
-    body {
-        padding: 0px 20px;
-    }
-
     .card {
         flex-direction: column; 
         width: 100%;
@@ -141,5 +141,4 @@ a {
     .price-bg {
         font-size: 2em;
     }
-
 }
