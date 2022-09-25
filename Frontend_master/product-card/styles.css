@@ -26,7 +26,7 @@ body {
 
 h3 {
     font-family: 'Fraunces', serif;
-    font-size: 24px; 
+    font-size: 30px; 
     color: var(--dark-blue);
     margin-bottom: 0px;
 }
@@ -42,13 +42,12 @@ a {
 }
 
 .card {
-    height: 400px;
     width: 550px;
     background-color: white;
     display: grid;
     grid-template-columns: 50% 50%;
     border-radius: 10px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .cover {
@@ -59,12 +58,13 @@ a {
 }
 
 .description {
-    padding: 0px 25px;
+    padding: 20px 25px;
 }
 
 .product-tag {
     text-transform: uppercase;
     color: var(--grayish-blue);
+    margin: 0px;
 }
 
 .price-tag {
@@ -102,5 +102,22 @@ a {
 }
 
 /* mobile view */
-@media all (max-width: 375px) {
+@media (max-width: 375px) {
+    
+    .card {
+        grid-template-columns: 100%;
+        grid-template-rows: 45% 55%;
+        width: 350px; 
+        height: 100%;
+        max-height: 700px;
+        margin: 0px 20px;
+    }
+
+    .description {
+        padding-bottom: 50px;
+    }
+
+    .cover {
+        background: url('images/image-product-mobile.jpg');
+    }
 }
