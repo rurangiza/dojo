@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](./screenshots/desktop-view.jpg)
-![Movile View](./screenshots/mobile-view.jpg)
+![Desktop View](./screenshots/desktop-view.png)
+![Movile View](./screenshots/mobile-view.png)
 
 ### Links
 
@@ -50,6 +50,4 @@ Once that was done, I started applying some CSS.
 
 ## Author
 
-- Website - [Arsene Rurangiza](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@arsenerurangiza](https://www.twitter.com/yourusername)
+- Twitter - [@arsenerurangiza](https://www.twitter.com/arsenerurangiza)
