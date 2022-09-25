@@ -46,10 +46,8 @@ a {
 .card {
     width: 550px;
     background-color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     border-radius: 10px;
-    height: auto;
     overflow: hidden;
 }
 
@@ -58,6 +56,7 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 160%;
 }
 
 .description {
@@ -117,17 +116,17 @@ a {
 /* mobile view */
 @media (max-width: 375px) {
     
+    body {
+        padding: 0px 20px;
+    }
+
     .card {
-        grid-template-columns: 100%;
-        grid-template-rows: 40% 60%;
-        grid-auto-rows: minmax(min-content, max-content);
-        width: 350px; 
-        height: auto;
-        margin: 0px 20px;
+        flex-direction: column; 
+        width: 100%;
     }
 
     .description {
-        padding-bottom: 50px;
+        padding-bottom: 25px;
     }
 
     .cover {
@@ -135,6 +134,8 @@ a {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        height: 15em;
+        width: 100%;
     }
 
     .price-bg {
