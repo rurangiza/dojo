@@ -13,14 +13,14 @@
         <nav>
             <div>
                 <a href="/"><img src="{% static 'logo.png' %}" height="48px" alt=""></a>
-                <ul>
-                    <li><a href="{% url 'home' %}">Articles</a></li>
+                <ul class="horizontal">
+                    <li><a href="{% url 'home' %}" class="nav-item">Articles</a></li>
                     {% if user.is_authenticated %}
-                        <li><a href="{% url 'articles:create' %}">Post</a></li>
+                        <li><a href="{% url 'articles:create' %}" class="nav-item">Post</a></li>
                     {% endif %}
                 </ul>
             </div>
-            <ul>
+            <ul class="cta-list">
                 {% if user.is_authenticated %}
                     <li><form class="logout" action="{% url 'accounts:logout' %}" method="post">
                         {% csrf_token %}
@@ -34,5 +34,6 @@
         </nav>
         {% block content %} {%endblock%}
     </div>
+    {% block script %} {% endblock %}
 </body>
 </html>

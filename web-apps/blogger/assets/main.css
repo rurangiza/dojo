@@ -20,27 +20,19 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
-ul {
+.horizontal {
     display: flex;
 }
+
+/* ul {
+    display: flex;
+} */
 
 /* CONTAINERS */
 .container {
     max-width: 760px;
     margin: 20px auto;
 
-}
-
-.articles {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-}
-.article {
-    border: .3px solid black;
-    padding: 20px 25px;
-    border-radius: 10px;
 }
 
 button {
@@ -52,8 +44,16 @@ button {
     cursor: pointer;
 }
 
+.cta-list {
+    display: flex;
+    margin-left: 10px;
+}
+
 .cta {
     margin-left: 8px;
+}
+.cta:hover {
+    background-color: #03c28f;
 }
 
 button:hover {
@@ -84,14 +84,106 @@ nav > div ul li {
     margin-right: 10px;
 }
 
+.nav-item {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 4px;
+    border-bottom: 3px solid transparent;
+    transition: all 200ms ease-in-out;
+}
+.nav-item:hover {
+    border-bottom: 3px solid black;
+}
+
 .banner {
     width: 100%;
     margin: 10px 0 20px 0;
 }
 
 p {
-    font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(0, 0, 0, 0.742);
     line-height: 1.5;
+}
+
+/* ---------- ARTICLE ---------- */
+
+.articles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.article {
+    border: .3px solid black;
+    padding: 20px 25px 28px 25px;
+    position: relative;
+}
+
+.author-card {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: aquamarine;
+    color: black;
+    padding: 8px;
+    font-size: 12px;
+}
+
+/* ---------- FORMS ---------- */
+.form {
+    border: .3px solid black;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.site-form input, .site-form textarea, input{
+    display: block;
+    margin: 8px 0 15px 0;
+    padding: 8px;
+    border: .3px solid rgba(0, 0, 0, 0.461);
+    border-radius: 4px;
+}
+
+.helptext, .helptext ul {
+    /* margin: 0 auto; */
+    padding: 10px;
+    list-style-type: none;
+    border: .3px solid red;
+    color: red;
+    margin: 20px 0;
+    display: none;
+}
+
+/* List of password requirements */
+.site-form ul:not(.errorlist) li {
+    margin: 0 auto;
+    display: none;
+}
+
+/* .site-form ul li .errorlist {
+    display: contents;
+} */
+
+.errorlist {
+    display: block;
+    color: salmon;
+    border: .3px solid salmon;
+    padding: 10px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #00dba0;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #03c28f;
 }
