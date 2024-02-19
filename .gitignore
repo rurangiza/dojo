@@ -1,3 +1,5 @@
+# local
+/tmp/
 # C/C++ build artifacts
 *.o
 *.so
@@ -58,7 +60,7 @@
 # Django specific
 *.pyc
 __pycache__/
-*.pyo
+*.yo
 *.pyd
 *.swp
 *.db.sqlite3
