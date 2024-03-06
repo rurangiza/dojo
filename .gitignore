@@ -1,5 +1,7 @@
 # local
 /tmp/
+Environements/
+
 # C/C++ build artifacts
 *.o
 *.so
