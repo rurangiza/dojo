@@ -87,7 +87,7 @@ graph TD
 ```
 > *By [Neetcode](https://neetcode.io/roadmap)*
 
-## Plan
+## Progress
 
 |#|Title|Solution|Time|Space|Difficulty|Notes|
 |-|-|-|-|--|--|--|
