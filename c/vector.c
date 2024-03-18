@@ -44,7 +44,7 @@ bool is_empty(Vector* self)
 int at(Vector* self, int index)
 {
     if (index >= 0 && index < self->size)
-        return self->container[index];
+        return *(self->container + index);
     return -1;
 }
 
@@ -54,8 +54,12 @@ void resize(Vector* self)
 
     if (self == NULL)
         return ;
+    
+    if (self->size == self->capacity)
+        self->capacity *= 2;
+    else if (self->size <= self->capacity / 4)
+        self->capacity /= 2;
 
-    self->capacity *= 2;
     newContainer = calloc(self->capacity, sizeof(int));
     for (int offset = 0; offset < self->size; offset++)
     {
