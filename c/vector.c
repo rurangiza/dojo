@@ -1,34 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+#include "containers.h"
 
 /*
  * Implement a vector (mutable array with automatic resizing):
 */
 
-typedef struct Vector {
-    int     size;
-    int     capacity;
-    int*    container;
-    int     (*get_size)(struct Vector*);
-    int     (*get_capacity)(struct Vector*);
-    bool    (*is_empty)(struct Vector*);
-    int     (*at)(struct Vector*, int);
-    void    (*resize)(struct Vector*);
-    void    (*append)(struct Vector*, int);
-    void    (*prepend)(struct Vector*, int);
-    void    (*insert)(struct Vector*, int, int);
-    int     (*pop)(struct Vector*);
-    void    (*delete)(struct Vector*, int);
-    void    (*remove)(struct Vector*, int);
-    int     (*find)(struct Vector*, int);
-}   Vector;
-
+// occupied space
 int get_size(Vector* self)
 {
     return self->size;
 }
 
+// allocated space
 int get_capacity(Vector* self)
 {
     return self->capacity;
@@ -41,6 +23,7 @@ bool is_empty(Vector* self)
     return false;
 }
 
+// get element at index
 int at(Vector* self, int index)
 {
     if (index >= 0 && index < self->size)
@@ -48,6 +31,7 @@ int at(Vector* self, int index)
     return -1;
 }
 
+// increase/decrease capacity based on size
 void resize(Vector* self)
 {
     int* newContainer = NULL;
@@ -69,16 +53,16 @@ void resize(Vector* self)
     self->container = newContainer;
 }
 
+// add to end
 void append(Vector* self, int num)
 {
     if (self->size == self->capacity)
-    {
         self->resize(self); // O(2*N)
-    }
     *(self->container + self->size) = num; // O(1)
     self->size++; // O(1)
 }
 
+// add to middle
 void insert(Vector* self, int num, int idx)
 {
     if (idx < 0) idx = 0;
@@ -101,6 +85,7 @@ void insert(Vector* self, int num, int idx)
     self->size++;
 }
 
+// insert to front
 void prepend(Vector* self, int num)
 {
     self->insert(self, num, 0);
@@ -170,6 +155,7 @@ int find(Vector* self, int target)
     return -1;
 }
 
+// initialize the vector struct
 Vector* newVector()
 {
     Vector* v = calloc(1, sizeof(Vector));

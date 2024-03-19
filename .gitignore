@@ -2,6 +2,10 @@
 /tmp/
 Environements/
 
+*play.py
+*play.cpp
+*play.ipynb
+
 # C/C++ build artifacts
 *.o
 *.so

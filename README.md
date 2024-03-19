@@ -6,12 +6,12 @@ This is a repo where I'll save my leetcode journey
 
 > **Data structure**: a way of organizing, storing, and managing data so that it can be used efficiently
 
-> **Asymptotic Notations**: a general term that refers to notations used to describe the running time of an algorithm in terms of input size (n) as n approaches infinity. It provides an upper bound, lower bound, or tight bound on the growth rate of a function. These include:
-▪	Big O Notation (O): Upper Bound
-▪	Omega Notation (Ω): Lower Bound
-▪	Theta Notation (Θ): Tight Bound
-
-> **Big-O Notation**: is a specific type of asymptotic notation. It expresses the upper bound of an algorithm's time/space complexity - the maximum time required by an algorithm for all input values. It gives the worst-case scenario.
+> **Asymptotic Notations**: notations used to measure how well an algorithm scales as its input size increases. 
+i.e 'how would a chosen algorithm perform when given an array of 10 element, 10 000 element or 1 million elements'
+These include:
+▪	Big O Notation (O): Upper Bound (worst case)
+▪	Omega Notation (Ω): Lower Bound (average case)
+▪	Theta Notation (Θ): Tight Bound (best case)
 
 > **Time complexity**: a theoretical estimation of how an algorithm's running time grows based on the size of the input
 
@@ -87,11 +87,124 @@ graph TD
 ```
 > *By [Neetcode](https://neetcode.io/roadmap)*
 
-## Progress
+## DSA Implementations
 
-|#|Title|Solution|Time|Space|Difficulty|Notes|
+### Data Structures
+|Name|Solutions|Strength|Weakness|
+|--|--|--|--|
+|Dynamic Array|[C](./c/vector.c), [Python](./python/_vector.py)| **O(1)** read/write at index, add/remove at end| **O(N)** search, insert/delete at middle|
+|Stack||||
+|Linked-List||||
+|Queue||||
+|Hash Tables||||
+|Tree||||
+|Trie||||
+|Graph||||
+
+### Sort/Search Algorithms
+|Name|Solutions|Strength|Weakness|
+|--|--|--|--|
+|Selection Sort||||
+|Bubble Sort||||
+|||||
+|Quick Sort||||
+|Merge Sort||||
+|Linear Search||||
+|Binary Search||||
+|Breath-First-Search||||
+|Depth-First-Search||||
+
+## Problem Solving
+### Arrays & Hashing
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
 |-|-|-|-|--|--|--|
 ||||||||
+
+### Two Pointers
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Stack
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Binary Search
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Sliding Window
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Linked-List
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Trees
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Backtracking
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Graphs
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Heap/Priority Queue
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### 1-D Dynamic Programming
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Advanced Graphs
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Intervals
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Tries
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Greedy
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### 2-D Dynamic Programming
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Bit Manipulation
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
+### Math & Geometry
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|-|-|-|-|--|--|--|
+||||||||
+
 
 ## Ressources
 - **Grokking Algorithms** : great introduction to algorithms + visual exemples + code in Python ([Book](https://www.amazon.com.be/-/en/Aditya-Bhargava/dp/1617292230/ref=asc_df_1617292230/))

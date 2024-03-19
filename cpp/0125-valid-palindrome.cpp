@@ -1,9 +1,4 @@
-
-#include <iostream>
-#include <string>
-using std::string;
-using std::cout;
-using std::endl;
+#include "common.h"
 
 class Solution {
     public:
