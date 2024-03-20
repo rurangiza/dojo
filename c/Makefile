@@ -1,11 +1,15 @@
 COMPILER = gcc
 FLAGS = -Wall -Werror -Wextra -fsanitize=address
+COMPILE = @$(COMPILER) $(FLAGS) -o $@.out $@.c
+RUN = ./$@.out
 
 vector:
-	@$(COMPILER) $(FLAGS) -o vector vector.c
-	@./vector
+	$(COMPILE) && $(RUN)
+
+linkedlist:
+	$(COMPILE) && $(RUN)
 
 clean:
-	@rm vector
+	@rm *.out
 
-re: clean vector
+re: clean

@@ -6,12 +6,12 @@ This is a repo where I'll save my leetcode journey
 
 > **Data structure**: a way of organizing, storing, and managing data so that it can be used efficiently
 
-> **Asymptotic Notations**: notations used to measure how well an algorithm scales as its input size increases. 
-i.e 'how would a chosen algorithm perform when given an array of 10 element, 10 000 element or 1 million elements'
+> **Asymptotic Notations**: notations used to measure how well an algorithm scales as its input size increases. i.e 'how would a chosen algorithm perform when given an array of 10 element, 10 000 element or 1 million elements'
+
 These include:
-▪	Big O Notation (O): Upper Bound (worst case)
-▪	Omega Notation (Ω): Lower Bound (average case)
-▪	Theta Notation (Θ): Tight Bound (best case)
+- Big O Notation (O): Upper Bound (worst case)
+- Omega Notation (Ω): Lower Bound (average case)
+- Theta Notation (Θ): Tight Bound (best case)
 
 > **Time complexity**: a theoretical estimation of how an algorithm's running time grows based on the size of the input
 

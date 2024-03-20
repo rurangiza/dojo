@@ -4,6 +4,28 @@
  * Implement a vector (mutable array with automatic resizing):
 */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+typedef struct Vector {
+    int     size;
+    int     capacity;
+    int*    container;
+    int     (*get_size)(struct Vector*);
+    int     (*get_capacity)(struct Vector*);
+    bool    (*is_empty)(struct Vector*);
+    int     (*at)(struct Vector*, int index);
+    void    (*resize)(struct Vector*);
+    void    (*append)(struct Vector*, int number);
+    void    (*prepend)(struct Vector*, int number);
+    void    (*insert)(struct Vector*, int number, int index);
+    int     (*pop)(struct Vector*);
+    void    (*delete)(struct Vector*, int number);
+    void    (*remove)(struct Vector*, int number);
+    int     (*find)(struct Vector*, int number);
+}   Vector;
+
 // occupied space
 int get_size(Vector* self)
 {
@@ -159,6 +181,8 @@ int find(Vector* self, int target)
 Vector* newVector()
 {
     Vector* v = calloc(1, sizeof(Vector));
+    if (!v)
+        return NULL;
 
     v->size = 0;
     v->capacity = 4;
@@ -181,6 +205,8 @@ Vector* newVector()
 int main()
 {
     Vector* v = newVector();
+    if (!v)
+        exit(1);
     
     printf("Size: %d\n", v->get_size(v));
     printf("Capacity: %d\n", v->get_capacity(v));
