@@ -92,68 +92,189 @@ void push_front(int value, LinkedList* ll)
     ll->size++;
 }
 
-/*
 // remove the front item and return its value
 int pop_front(LinkedList* ll)
 {
-    ;
+    if (!ll || ll->size == 0)
+        return -1;
+    
+    Node* old_front = ll->head->next;
+    Node* new_front = old_front->next;
+
+    ll->head->next = new_front;
+
+    int result = old_front->value;
+    free(old_front);
+    ll->size--;
+
+    return result;
 }
 
 // adds an item at the end
 void push_back(int value, LinkedList* ll)
 {
-    ;
+    if (!ll)
+        return ;
+    
+    Node* new = newNode(value);
+
+    if (!ll->head->next)
+    {
+        ll->head->next = new;
+        ll->tail->next = new;
+    }
+    else
+    {
+        ll->tail->next->next = new;
+        ll->tail->next = new;
+    }
+    ll->size++;
 }
 
 // removes end item and returns its value
 int pop_back(LinkedList* ll)
 {
-    ;
+    if (!ll || ll->size == 0)
+        return -1;
+    
+    Node* curr = ll->head;
+    while (curr->next != ll->tail->next)
+        curr = curr->next;
+    
+    ll->tail->next = curr;
+    Node* popped_node = curr->next;
+    curr->next = NULL;
+    ll->size--;
+
+    int popped_val = popped_node->value;
+    free(popped_node);
+
+    return popped_val;
 }
+
 
 // get the value of the front item
 int front(LinkedList* ll)
 {
-    ;
+    if (!ll || ll->size == 0)
+        return -1;
+    return ll->head->next->value;
 }
 
 // get the value of the end item
 int back(LinkedList* ll)
 {
-    ;
+    if (!ll || ll->size == 0)
+        return -1;
+    return ll->tail->next->value;
 }
 
 // insert value at index, so the current item at that index is pointed to by the new item at the index
-void insert(int index, int value, LinkedList* ll)
+void insert_node(int index, int value, LinkedList* ll)
 {
-    ;
+    if (!ll || index < 0 || index > ll->size)
+        return ;
+    
+    Node* prev = ll->head;
+    int count = 0;
+    while (prev && count < index)
+    {
+        prev = prev->next;
+        count++;
+    }
+    Node* next = prev->next;
+    
+    Node* new = newNode(value);
+    new->next = next;
+    prev->next = new;
+
+    if (index == ll->size)
+        ll->tail->next = new;
+    ll->size++;
 }
 
 // removes node at given index
 void erase(int index, LinkedList* ll)
 {
-    ;
+    if (!ll || index < 0 || index >= ll->size)
+        return ;
+    
+    Node* prev = ll->head;
+    int count = 0;
+    while (prev && count < index)
+    {
+        count++;
+        prev = prev->next;
+    } 
+    Node* target = prev->next;
+    Node* next = target->next;
+    prev->next = next;
+
+    free(target);
+
+    if (index == ll->size-1)
+        ll->tail->next = next;
+    ll->size--;
 }
 
 // returns the value of the node at the nth position from the end of the list
-int at_index(int n, LinkedList* ll)
+int at_index(int index, LinkedList* ll)
 {
-    ;
+    if (!ll || index < 0 || index >= ll->size)
+        return -1;
+    
+    Node* curr = ll->head->next;
+    int count = 0;
+    while (curr && count < index)
+    {
+        count++;
+        curr = curr->next;
+    }
+    if (curr)
+        return curr->value;
+    return -1;
 }
 
 // reverses the list
 void reverse(LinkedList* ll)
 {
-    ;
+    if (!ll || ll->size <= 1)
+        return ;
+    
+    Node* curr = ll->head->next;
+    Node* prev = NULL;
+    Node* next = NULL;
+    while (curr)
+    {
+        next = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = next;
+    }
+    Node* tmp = ll->tail->next;
+    ll->tail->next = ll->head->next;
+    ll->head->next = tmp;
 }
 
 // removes the first item in the list with this value
 void remove_value(int value, LinkedList* ll)
 {
-    ;
+    if (!ll || ll->size == 0)
+        return ;
+    
+    Node* curr = ll->head;
+    while (curr->next && curr->next->value != value)
+        curr = curr->next;
+    if (curr->next)
+    {
+        Node* target = curr->next;
+        Node* next = target->next;
+        curr->next = next;
+        if (ll->tail->next == target)
+            ll->tail->next = curr;
+        free(target);
+    }
 }
-
-*/
 
 void print_list(LinkedList* ll)
 {
@@ -191,17 +312,15 @@ void free_list(LinkedList* ll)
 
 int main()
 {
+    LinkedList* ll = newLinkedList();
+    int res(void);
 
-    LinkedList* a = newLinkedList();
+    push_front(11, ll);
+    push_front(22, ll);
+    push_front(150, ll);
+    
+    print_list(ll);
 
-    print_list(a);
-
-    push_front(11, a);
-    push_front(22, a);
-    push_front(33, a);
-
-    print_list(a);
-
-    free_list(a);
+    free_list(ll);
     return 0;
 }
