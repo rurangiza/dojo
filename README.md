@@ -93,9 +93,7 @@ graph TD
 |Name|Solutions|Strength|Weakness|
 |--|--|--|--|
 |Dynamic Array|[C](./c/vector.c), [Python](./python/_vector.py)| **O(1)** read/write at index, add/remove at end| **O(N)** search, insert/delete at middle|
-|Stack||||
 |Linked-List||||
-|Queue||||
 |Hash Tables||||
 |Tree||||
 |Trie||||
