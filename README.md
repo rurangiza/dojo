@@ -90,14 +90,14 @@ graph TD
 ## DSA Implementations
 
 ### Data Structures
-|Name|Solutions|Strength|Weakness|
-|--|--|--|--|
-|Dynamic Array|[C](./c/vector.c), [Python](./python/_vector.py)| **O(1)** read/write at index, add/remove at end| **O(N)** search, insert/delete at middle|
-|Linked-List||||
-|Hash Tables||||
-|Tree||||
-|Trie||||
-|Graph||||
+|Name|Solutions|Strength|Weakness|Great-for|
+|--|--|--|--|--|
+|Dynamic Array|[C](./c/vector.c), [Python](./python/_vector.py)| **O(1)** read/write at index, add/remove at end| **O(N)** search, insert/delete at middle|random access, memory efficient, rapid sort O(nlogn)|
+|Singly-Linked-List|[C](./c/singly-linked-list.c), [Python](./python/_singly-linked-list.py)| **O(1)** add or pop end/front, insert to middle if already there, no shifting | **O(N)** find, insert/remove middle if starting from head |maleability and changes in the middle|
+|Hash Tables|||||
+|Tree|||||
+|Trie|||||
+|Graph|||||
 
 ### Sort/Search Algorithms
 |Name|Solutions|Strength|Weakness|
