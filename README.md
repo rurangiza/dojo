@@ -5,8 +5,8 @@ This is a repo where I'll save my leetcode journey
 1. [Important Terms](#important-terms)
 2. [Roadmap](#roadmap)
 3. [Data Structure & Algorithms Implementations](#dsa-implementations)
-4. [Leetcode 150+](#🥋-leetcode-150)
-5. [Challenges](#🥷-challenges)
+4. [Leetcode 150+](#leetcode-150)
+5. [Challenges](#challenges)
 
 ## Important terms
 > **Algorithm**: step-by-step instructions for solving a problem or completing a task
@@ -118,7 +118,7 @@ graph TD
 |Breath-First-Search||||
 |Depth-First-Search||||
 
-## 🥋 Leetcode 150+
+## Leetcode 150+
 #### Arrays & Hashing
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
@@ -218,7 +218,7 @@ graph TD
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-## 🥷 Challenges
+## Challenges
 [![Arsène](https://www.codewars.com/users/rurangiza/badges/large)](https://www.codewars.com/users/rurangiza)
 Sites: [Codewars](https://www.codewars.com/), [Project Euler](https://projecteuler.net/archives)
 |#|Title|Solutions|Time|Space|Difficulty|From|
