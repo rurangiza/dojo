@@ -1,6 +1,13 @@
 ## About
 This is a repo where I'll save my leetcode journey
 
+**Table of Content**
+1. [Important Terms](#important-terms)
+2. [Roadmap](#roadmap)
+3. [Data Structure & Algorithms Implementations](#dsa-implementations)
+4. [Leetcode 150+](#🥋-leetcode-150)
+5. [Challenges](#🥷-codewars)
+
 ## Important terms
 > **Algorithm**: step-by-step instructions for solving a problem or completing a task
 
@@ -89,7 +96,7 @@ graph TD
 
 ## DSA Implementations
 
-### Data Structures
+#### Data Structures
 |Name|Solutions|Strength|Weakness|Great-for|
 |--|--|--|--|--|
 |Dynamic Array|[C](./c/vector.c), [Python](./python/_vector.py)| **O(1)** read/write at index, add/remove at end| **O(N)** search, insert/delete at middle|random access, memory efficient, rapid sort O(nlogn)|
@@ -99,12 +106,11 @@ graph TD
 |Trie|||||
 |Graph|||||
 
-### Sort/Search Algorithms
+#### Sort/Search Algorithms
 |Name|Solutions|Strength|Weakness|
 |--|--|--|--|
 |Selection Sort||||
 |Bubble Sort||||
-|||||
 |Quick Sort||||
 |Merge Sort||||
 |Linear Search||||
@@ -112,97 +118,112 @@ graph TD
 |Breath-First-Search||||
 |Depth-First-Search||||
 
-## Problem Solving
-### Arrays & Hashing
+## 🥋 Leetcode 150+
+#### Arrays & Hashing
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+|0001|Two Sum|[Python](./python/0001-two-sum.py)|O(n)|O(n)|Easy|hashmap pair checker|
+|0049|Group Anagrams|[Python](./python/0049-group-anagrams.py)|O(n)|O(n)|Easy||
+|0217|Contains Duplicates|[Python](./python/0217-contains-duplicates.py)|O(n)|O(n)|Easy|hashmap pair checker|
+
+#### Prefix Sum [🔗](https://leetcode.com/tag/prefix-sum/)
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+|2574|Left and right sum difference|[Python](./python/2574-left-and-right-sum-difference.py)|O(n)|O(n)|Easy||
+
+#### Two Pointers
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Two Pointers
+#### Stack
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+|0020|Valid Paranthesis|[Python](./python/0020-valid-paranthesis.py)|O(n)|O(n)|Easy||
+|0155|Min Stack|[Python](./python/0155-min-stack.py)|||Easy||
+
+#### Binary Search
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Stack
+#### Sliding Window
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Binary Search
+#### Linked-List
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+|0707|Design a linked list|[Python](./python/0707-design-linked-list.py)|see above||||
+|0206|Reverse Linked List|[Python](./python/0206-reverse-linked-list.py)|O(n)|O(1)|Medium|save state (prev, curr, next), dummy nodes help|
+
+#### Trees
+|#|Title|Solutions|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Sliding Window
+#### Backtracking
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Linked-List
+#### Graphs
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Trees
+#### Heap/Priority Queue
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Backtracking
+#### 1-D Dynamic Programming
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Graphs
+#### Advanced Graphs
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Heap/Priority Queue
+#### Intervals
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### 1-D Dynamic Programming
+#### Tries
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Advanced Graphs
+#### Greedy
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Intervals
+#### 2-D Dynamic Programming
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Tries
+#### Bit Manipulation
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### Greedy
+#### Math & Geometry
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-### 2-D Dynamic Programming
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
+## 🥷 Challenges
+[![Arsène](https://www.codewars.com/users/rurangiza/badges/large)](https://www.codewars.com/users/rurangiza)
+Sites: [Codewars](https://www.codewars.com/), [Project Euler](https://projecteuler.net/archives)
+|#|Title|Solutions|Time|Space|Difficulty|From|
+|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
-
-### Bit Manipulation
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
-||||||||
-
-### Math & Geometry
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|-|-|-|-|--|--|--|
-||||||||
-
 
 ## Ressources
 - **Grokking Algorithms** : great introduction to algorithms + visual exemples + code in Python ([Book](https://www.amazon.com.be/-/en/Aditya-Bhargava/dp/1617292230/ref=asc_df_1617292230/))

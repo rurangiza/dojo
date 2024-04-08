@@ -7,23 +7,36 @@ You can return the answer in any order.
 An Anagram is a word or phrase formed by rearranging the letters
 of a different word or phrase, typically using all the
 original letters exactly once.
+
+Example 1:
+
+Input: nums = [1,2,3,1]
+Output: true
+Example 2:
+
+Input: nums = [1,2,3,4]
+Output: false
+Example 3:
+
+Input: nums = [1,1,1,3,3,4,3,2,4,2]
+Output: true
+ 
+
+Constraints:
+
+1 <= nums.length <= 105
+-109 <= nums[i] <= 109
 """
 
 from collections import defaultdict
-class Solution(object):
-    def groupAnagrams(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: List[List[str]]
-        """
-        anagrams_map = defaultdict(list)
-        groups = []
+from typing import List
 
+class Solution(object):
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        anagrams = defaultdict(list)
         for s in strs:
-            anagrams_map[tuple(sorted(s))].append(s)
-        for key, values in anagrams_map.items():
-            groups.append(values)
-        return groups
+            anagrams["".join(sorted(s))].append(s)
+        return (values for values in anagrams.values())
 
 #############################################
 
