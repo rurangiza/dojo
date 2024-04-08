@@ -6,7 +6,7 @@ This is a repo where I'll save my leetcode journey
 2. [Roadmap](#roadmap)
 3. [Data Structure & Algorithms Implementations](#dsa-implementations)
 4. [Leetcode 150+](#🥋-leetcode-150)
-5. [Challenges](#🥷-codewars)
+5. [Challenges](#🥷-challenges)
 
 ## Important terms
 > **Algorithm**: step-by-step instructions for solving a problem or completing a task
