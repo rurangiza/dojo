@@ -122,9 +122,13 @@ graph TD
 #### Arrays & Hashing
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
+|0217|Contains Duplicates|[Python](./python/0217-contains-duplicates.py)|O(n)|O(n)|Easy|hashmap pair checker|
+|0242|Valid Anagram|[Python](./python/0242-valid-anagram.ipynb)|O()||||
 |0001|Two Sum|[Python](./python/0001-two-sum.py)|O(n)|O(n)|Easy|hashmap pair checker|
 |0049|Group Anagrams|[Python](./python/0049-group-anagrams.py)|O(n)|O(n)|Easy||
-|0217|Contains Duplicates|[Python](./python/0217-contains-duplicates.py)|O(n)|O(n)|Easy|hashmap pair checker|
+|0347|Top K Frequent Elements|[Python](./python/0347-top-k-frequent-elements.ipynb)|O(n)|O(n)|Medium|hashmap counter|
+|0298|Product of Array Except Self|[Python](./python/0298-product-of-array-except-self.ipynb)|O(n)|O(n)|Medium|prefix sum & postfix sum|
+||||||||
 
 #### Prefix Sum [🔗](https://leetcode.com/tag/prefix-sum/)
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
