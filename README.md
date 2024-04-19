@@ -1,34 +1,54 @@
-## About
-This is a repo where I'll save my leetcode journey
+# Dojo
+## Playground to practice and prepare for technical interviews
 
-**Table of Content**
-1. [Important Terms](#important-terms)
-2. [Roadmap](#roadmap)
-3. [Data Structure & Algorithms Implementations](#dsa-implementations)
-4. [Leetcode 150+](#leetcode-150)
-5. [Challenges](#challenges)
+![](./docs/Room_of_Spirit_and_Time.png)
 
-## Important terms
-> **Algorithm**: step-by-step instructions for solving a problem or completing a task
+**Outline**
+1. [Data Structures, Algorithms & Key Concepts](#data-structures--algorithms)
+2. [Problem solving](#problems)
+3. [Projects](#projects)
+4. [C.S Fundamentals](#computer-science-fundamentals)
+5. [System Design 101](#system-design)
 
-> **Data structure**: a way of organizing, storing, and managing data so that it can be used efficiently
+<hr>
 
-> **Asymptotic Notations**: notations used to measure how well an algorithm scales as its input size increases. i.e 'how would a chosen algorithm perform when given an array of 10 element, 10 000 element or 1 million elements'
+## Data Structures & Algorithms
+> Data structures and algorithms help organize and process data efficiently. Data structures optimize storage and operations for specific needs, algorithms provide methods for tasks like sorting and searching. Understanding them is essential for developing efficient, scalable software, enabling developers to tackle complex problems and create faster, resource-effective applications.
 
-These include:
-- Big O Notation (O): Upper Bound (worst case)
-- Omega Notation (Ω): Lower Bound (average case)
-- Theta Notation (Θ): Tight Bound (best case)
+#### Data Structures
+|Name|Code|Strength|Weakness|Use case|
+|--|--|--|--|--|
+|Dynamic Arrays|[C](./c/vector.c), [Python](./python/_vector.py)| **O(1)** read/write at index, add/remove at end| **O(N)** search, insert/delete at middle|random access, memory efficient, rapid sort O(nlogn)|
+|Stack|||||
+|Linked-Lists|[C](./c/singly-linked-list.c), [Python](./python/_singly-linked-list.py)| **O(1)** add or pop end/front, insert to middle if already there, no shifting | **O(N)** find, insert/remove middle if starting from head |maleability and changes in the middle|
+|Queues|||||
+|Hash Tables|||||
+|Binary Trees|||||
+|Graph|||||
+|Tries|||||
+|Heaps|||||
 
-> **Time complexity**: a theoretical estimation of how an algorithm's running time grows based on the size of the input
+#### Algorithms
+|Name|Code|Strength|Weakness|
+|--|--|--|--|
+|Merge Sort||||
+|Quick Sort||||
+|Binary Search||||
+|Breath-First-Search||||
+|Depth-First-Search||||
+|Tree insert/find/etc||||
 
-> **Running/execution time**: the actual time it takes for the algorithm to execute on a specific input with a real system and specific data
+#### Concepts
+|Title|Definition|
+|-|-|
+|Bit manipulation|Bit manipulation involves using bitwise operators to modify individual bits within a binary number. This can include operations like shifting bits left or right, setting a specific bit to 1 or 0, or flipping bits. It's often used for tasks that require high performance, compact storage, or direct hardware control.|
+|Recursion|Recursion is a programming technique where a function calls itself to solve smaller parts of a problem, until it reaches a condition that stops further calls. This is useful for problems that can be broken down into similar, smaller problems.|
+|Memorization/dynamic programming|Memoization is a technique where you store the results of expensive function calls and return the cached result when the same inputs occur again. This avoids repeated calculations and speeds up the program. <br><br> Dynamic programming is an approach that breaks down a complex problem into simpler subproblems and solves each of these subproblems just once, storing their solutions. When a larger problem depends on the solutions of these smaller problems, it uses these stored solutions directly, optimizing the overall computation process. Both techniques are useful for improving performance in problems that involve many repeated calculations.|
+|Memory (stack/heap)|A stack is a region of memory where data is added or removed in a last-in, first-out order. It's used for static memory allocation, such as for function call management and local variables.<br><br>A heap is a region of memory used for dynamic memory allocation, where blocks of memory can be allocated and freed in any order. This flexibility supports more complex data structures like trees, graphs, and dynamically resized arrays. Both the stack and the heap help manage memory in programs, but they do so in different ways and for different types of data.|
+|Big O Notation|Big O notation is a way to describe the efficiency of an algorithm, specifically how its runtime or space requirements grow as the size of the input increases. It focuses on the worst-case scenario, ignoring constants and less significant terms to give a simplified understanding of an algorithm's performance as the input becomes very large. For example, an algorithm with a time complexity of O(n) means its runtime increases linearly with the input size|
 
-> **Space Complexity**: a measure of the amount of memory an algorithm needs in order to run to completion
-
-When comparing different algorithms, it's better to use the Big-O notation since it's independant of the hardware and system used to run it, which affect the performance.
-
-## Roadmap
+## Problem Solving
+### Roadmap
 
 ```mermaid
 graph TD
@@ -92,146 +112,206 @@ graph TD
     15---> 18
     15---> 19
 ```
-> *By [Neetcode](https://neetcode.io/roadmap)*
 
-## DSA Implementations
-
-#### Data Structures
-|Name|Solutions|Strength|Weakness|Great-for|
-|--|--|--|--|--|
-|Dynamic Array|[C](./c/vector.c), [Python](./python/_vector.py)| **O(1)** read/write at index, add/remove at end| **O(N)** search, insert/delete at middle|random access, memory efficient, rapid sort O(nlogn)|
-|Singly-Linked-List|[C](./c/singly-linked-list.c), [Python](./python/_singly-linked-list.py)| **O(1)** add or pop end/front, insert to middle if already there, no shifting | **O(N)** find, insert/remove middle if starting from head |maleability and changes in the middle|
-|Hash Tables|||||
-|Tree|||||
-|Trie|||||
-|Graph|||||
-
-#### Sort/Search Algorithms
-|Name|Solutions|Strength|Weakness|
-|--|--|--|--|
-|Selection Sort||||
-|Bubble Sort||||
-|Quick Sort||||
-|Merge Sort||||
-|Linear Search||||
-|Binary Search||||
-|Breath-First-Search||||
-|Depth-First-Search||||
-
-## Leetcode 150+
-#### Arrays & Hashing
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
+##### Arrays & Hashing
+|#|Title|Code|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
-|0217|Contains Duplicates|[Python](./python/0217-contains-duplicates.py)|O(n)|O(n)|Easy|hashmap pair checker|
-|0242|Valid Anagram|[Python](./python/0242-valid-anagram.ipynb)|O()||||
-|0001|Two Sum|[Python](./python/0001-two-sum.py)|O(n)|O(n)|Easy|hashmap pair checker|
-|0049|Group Anagrams|[Python](./python/0049-group-anagrams.py)|O(n)|O(n)|Easy||
-|0347|Top K Frequent Elements|[Python](./python/0347-top-k-frequent-elements.ipynb)|O(n)|O(n)|Medium|hashmap counter|
-|0298|Product of Array Except Self|[Python](./python/0298-product-of-array-except-self.ipynb)|O(n)|O(n)|Medium|prefix sum & postfix sum|
+|0217|[Contains Duplicates](https://leetcode.com/problems/contains-duplicate/description/)|[Python](./python/0217-contains-duplicates.py)|O(n)|O(n)|Easy|hashmap pair checker|
+|0242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|[Python](./python/0242-valid-anagram.ipynb)|O()||||
+|0001|[Two Sum](https://leetcode.com/problems/two-sum/description/)|[Python](./python/0001-two-sum.py)|O(n)|O(n)|Easy|hashmap pair checker|
+|0049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[Python](./python/0049-group-anagrams.py)|O(n)|O(n)|Easy||
+|0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[Python](./python/0347-top-k-frequent-elements.ipynb)|O(n)|O(n)|Medium|hashmap counter|
+|0298|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/)|[Python](./python/0298-product-of-array-except-self.ipynb)|O(n)|O(n)|Medium|prefix sum & postfix sum|
 ||||||||
 
-#### Prefix Sum [🔗](https://leetcode.com/tag/prefix-sum/)
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
+##### Prefix Sum [🔗](https://leetcode.com/tag/prefix-sum/)
+|#|Title|Code|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 |2574|Left and right sum difference|[Python](./python/2574-left-and-right-sum-difference.py)|O(n)|O(n)|Easy||
-
-#### Two Pointers
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### Stack
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
+##### Two Pointers
+|#|Title|Code|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+|0125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|[Python](./python/0125-valid-palindrome.ipynb)|O(n)|O(1/n)|Easy|beware conditions before checking|
+
+##### Stack
+|#|Title|Code|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 |0020|Valid Paranthesis|[Python](./python/0020-valid-paranthesis.py)|O(n)|O(n)|Easy||
 |0155|Min Stack|[Python](./python/0155-min-stack.py)|||Easy||
+||||||||
 
-#### Binary Search
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
+##### Binary Search
+|#|Title|Code|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### Sliding Window
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
+##### Sliding Window
+|#|Title|Code|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### Linked-List
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
+##### Linked-List
+|#|Title|Code|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 |0707|Design a linked list|[Python](./python/0707-design-linked-list.py)|see above||||
 |0206|Reverse Linked List|[Python](./python/0206-reverse-linked-list.py)|O(n)|O(1)|Medium|save state (prev, curr, next), dummy nodes help|
+||||||||
 
-#### Trees
+##### Trees
+|#|Title|Code|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+||||||||
+
+##### Backtracking
+|#|Title|Code|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+||||||||
+
+##### Graphs
+|#|Title|Code|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+||||||||
+
+##### Heap/Priority Queue
+|#|Title|Code|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+||||||||
+
+##### 1-D Dynamic Programming
+|#|Title|Code|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+||||||||
+
+##### Advanced Graphs
+|#|Title|Code|Time|Space|Difficulty|Notes|
+|:-:|-|:-:|:-:|:--:|:--:|--|
+||||||||
+
+##### Intervals
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### Backtracking
+##### Tries
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### Graphs
+##### Greedy
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### Heap/Priority Queue
+##### 2-D Dynamic Programming
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### 1-D Dynamic Programming
+##### Bit Manipulation
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### Advanced Graphs
+##### Math & Geometry
 |#|Title|Solutions|Time|Space|Difficulty|Notes|
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
-#### Intervals
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|:-:|-|:-:|:-:|:--:|:--:|--|
-||||||||
 
-#### Tries
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|:-:|-|:-:|:-:|:--:|:--:|--|
-||||||||
-
-#### Greedy
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|:-:|-|:-:|:-:|:--:|:--:|--|
-||||||||
-
-#### 2-D Dynamic Programming
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|:-:|-|:-:|:-:|:--:|:--:|--|
-||||||||
-
-#### Bit Manipulation
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|:-:|-|:-:|:-:|:--:|:--:|--|
-||||||||
-
-#### Math & Geometry
-|#|Title|Solutions|Time|Space|Difficulty|Notes|
-|:-:|-|:-:|:-:|:--:|:--:|--|
-||||||||
-
-## Challenges
+### Challenges
 [![Arsène](https://www.codewars.com/users/rurangiza/badges/large)](https://www.codewars.com/users/rurangiza)
-Sites: [Codewars](https://www.codewars.com/), [Project Euler](https://projecteuler.net/archives)
-|#|Title|Solutions|Time|Space|Difficulty|From|
-|:-:|-|:-:|:-:|:--:|:--:|--|
-||||||||
 
-## Ressources
-- **Grokking Algorithms** : great introduction to algorithms + visual exemples + code in Python ([Book](https://www.amazon.com.be/-/en/Aditya-Bhargava/dp/1617292230/ref=asc_df_1617292230/))
-- **Cracking the Coding Interview** : the bible of tech interviews ([Book](https://www.amazon.com.be/-/en/Gayle-Laakmann-McDowell/dp/0984782850))
-- **Neetcode**: best site to learn data structures & algorithms and practice ([Website](https://neetcode.io/))
-- **Coding interview university** : great roadmap and practice plan ([Github](https://github.com/jwasham/coding-interview-university))
-- **Leetcode**: practice solving problems ([Website](https://leetcode.com/))
+
+**Useful Links**
+- Grokking Algorithms<span style="color:#9e9c9c;"> : great introduction to algorithms + visual exemples + code in Python</span> ([Book](https://www.amazon.com.be/-/en/Aditya-Bhargava/dp/1617292230/ref=asc_df_1617292230/))
+- Cracking the Coding Interview<span style="color:#9e9c9c;"> : the bible of tech interviews</span> ([Book](https://www.amazon.com.be/-/en/Gayle-Laakmann-McDowell/dp/0984782850))
+- Cracking the Tech Career<span style="color:#9e9c9c;"> : Insider Advice on Landing a Job at Google, Microsoft, Apple, or any Top Tech Company</span> ([Book](https://www.amazon.com/Cracking-Tech-Career-Insider-Microsoft-ebook/dp/B00MFPZ9X6))
+- Coding interview university<span style="color:#9e9c9c;"> : great roadmap and practice plan</span> ([Github](https://github.com/jwasham/coding-interview-university))
+- Neetcode<span style="color:#9e9c9c;"> : best site to learn data structures & algorithms and practice</span> ([Website](https://neetcode.io/))
+- Leetcode<span style="color:#9e9c9c;"> : practice solving problems</span> ([Website](https://leetcode.com/))
+- Codewars<span style="color:#9e9c9c;"> : random general challenges</span> ([Website](https://www.codewars.com/))
+- Project Euler<span style="color:#9e9c9c;"> : more math focused</span> ([Website](https://projecteuler.net/))
+- Example Coding/Engineering Interview by Google ([Youtube](https://youtu.be/XKu_SEDAykw?si=1i-hftxzXND6-e9h))
+
+[⇪ **Back up**](#dojo)
+<hr>
+
+## Projects
+
+- [x] Learn a backend language
+- [ ] Learn backend programming <span style="color:#9e9c9c;">(see roadmap below)</span>
+    - [x] Version Control + Repo hosting services
+    - [ ] Relational Databases <span style="color:#9e9c9c;"> : interact with a database</span>
+    - [ ] APIs<span style="color:#9e9c9c;"> : consume public APIs, build my own</span>
+    - [ ] Authentication<span style="color:#9e9c9c;"> : users can signin/login..</span>
+    - [ ] Caching
+    - [ ] Testing
+    - [ ] Security<span style="color:#9e9c9c;"> : Your text here</span>
+    - [ ] Deployment<span style="color:#9e9c9c;"> : site live at custom domain name</span>
+- [ ] Build to learn
+    - [ ] CRUD apps [:5]
+    - [ ] Text editor
+    - [ ] Command line tool
+    - [ ] Front-end framework
+    - [ ] Programming language
+    - [x] [Web server](https://github.com/rurangiza/adars)
+    - [ ] .wav file from scratch
+    - [ ] synthesizer
+    - [ ] Web browser
+    - [x] [Shell](https://github.com/rurangiza/minishell)
+- [ ] Build to solve personal problem
+
+![](./docs/backend%20roadmap.png)
+
+**FAQ**
+- [What is the back-end](https://www.youtube.com/watch?v=XBu54nfzxAQ)
+- [What is the front-end](https://www.youtube.com/watch?v=WG5ikvJ2TKA)
+- [How to connect them](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
+
+[⇪ **Back up**](#dojo)
+<hr>
+
+## Computer Science Fundamentals
+1. [Computer Networks](https://www.geeksforgeeks.org/basics-computer-networking/)
+    - How does the internet works? .. <span style="color:#9e9c9c;">[1](https://cs.fyi/guide/how-does-internet-work), [2](https://www.vox.com/2014/6/16/18076282/the-internet), [3](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm), [4](https://roadmap.sh/guides/what-is-internet), [5](https://www.youtube.com/watch?v=x3c1ih2NJEg), [6](https://www.youtube.com/watch?v=7_LPdttKXPc), [7](https://www.youtube.com/watch?v=zN8YNNHcaZc)</span>
+    - HTTP <span style="color:#9e9c9c;">......................................... [1](https://cs.fyi/guide/http-in-depth), [2](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/), [3](https://www.youtube.com/watch?v=2JYT5f2isg4), [4](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), [5](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/), [6](https://www.youtube.com/watch?v=a-sBfyiXysI), [7](https://www.youtube.com/watch?v=iYM2zFP3Zn0), [8](https://www.youtube.com/watch?v=j9QmMEWmcfo)</span>
+    - Browsers <span style="color:#9e9c9c;">................................... [1](https://web.dev/articles/howbrowserswork), [2](https://www.browserstack.com/guide/browser-rendering-engine), [3](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)</span>
+    - DNS <span style="color:#9e9c9c;">........................................... [1](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/), [2](https://howdns.works/), [3](https://developer.mozilla.org/en-US/docs/Glossary/DNS), [4](https://www.youtube.com/watch?v=Wj0od2ag5sk), [5](https://www.youtube.com/watch?v=7lxgpKh_fRY), [6](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)</span>
+    - Domain name <span style="color:#9e9c9c;">............................ [1](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name), [2](https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/), [3](https://www.youtube.com/watch?v=Y4cRx19nhJk)</span>
+    - What is hosting <span style="color:#9e9c9c;">.......................... [1](https://www.youtube.com/watch?v=htbY9-yggB0), [2](https://www.youtube.com/watch?v=AXVZYzw8geg), [3](https://www.youtube.com/watch?v=Kx_1NYYJS7Q), [4](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines), [5](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)</span>
+2. [Database Management Systems](https://youtube.com/playlist?list=PLBlnK6fEyqRiyryTrbKHX1Sh9luYI0dhX&si=IyDNDmGsWp_IHDjo) (DBMS)
+    - SQL <span style="color:#9e9c9c;">............................................ [1](https://youtu.be/vHYeChEf2lA?si=mPEb39ipV__wbhXj), [2](https://youtu.be/_2t18Hy9Z0Y?si=HzGXygBtNcBdPPva), [3](https://youtu.be/QzRW6bfv3Fo?si=sgTpJJ3miR11jkn2), [4](https://youtu.be/BD08USRd2M8?si=mmaHQ8cWLQYE9pco), [5](https://youtu.be/jZwGVuA8PMI?si=VirMG-8QNT-HzTKl), [6](https://youtu.be/qa5-mKVSQHQ?si=AQPZDIQUmLugK38Y), [7](https://youtu.be/jXbXGkgT2Xg?si=DnWi2fraJb1CPZO-)</span>
+    - PostgreSQL ................................ [1](https://youtu.be/SpfIwlAYaKk?si=WPE9kcfdVWfognaP), [2](https://youtu.be/miEFm1CyjfM?si=JnCIxr35kvz7URbd)
+3. [Operating System](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+4. [Object Oriented Programming](https://www.educative.io/blog/object-oriented-programming)
+
+[⇪ **Back up**](#dojo)
+<hr>
+
+## System Design
+> Systems design ism the process of defining and developing systems to satisfy specified requirements of the user. The basic study of system design is the understanding of component parts and their subsequent interaction with one another.
+
+**What is system design** [[1](https://youtu.be/i53Gi_K3o7I?si=KAb_rU6PrSVcqU1J), [2](https://www.youtube.com/watch?v=m8Icp_Cid5o), [3](https://www.amazon.com/gp/product/0071843655/)]
+
+**Main Components**
+- Web server
+- Database
+- Load balancer
+- Cache
+- CDN
+- Message queues
+- Loggging, metrics and automations
+
+**Concepts**
+- Vertical vs horizontal scaling
+- Statefull vs stateless architecture
+
+**Useful Links**
+- [Web Scalability for Startup Engineers](https://www.amazon.com/gp/product/0071843655/)
+- [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/gp/product/1449373321)
+- [Guide to System Design in 2024](https://www.educative.io/blog/complete-guide-to-system-design#horizontalandverticalscaling) on Educative
+- [System Design Roadmap](https://takeuforward.org/system-design/complete-system-design-roadmap-with-videos-for-sdes/) by Gaurav Sen
+
+[⇪ **Back up**](#dojo)

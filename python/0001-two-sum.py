@@ -41,3 +41,17 @@ class Solution(object):
             else:
                 hashM[nums[i]] = i
         return -1
+
+
+
+
+def sol(nums, target):
+    L, R = 0, len(nums)-1
+    while L < R:
+        curr = nums[L] + nums[R]
+        if curr == target:
+            return [L, R]
+        elif curr > target:
+            R -= 1
+        else:
+            L += 1
