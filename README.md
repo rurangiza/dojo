@@ -5,7 +5,7 @@
 
 **Outline**
 1. [Data Structures, Algorithms & Key Concepts](#data-structures--algorithms)
-2. [Problem solving](#problems)
+2. [Problem solving](#problem-solving)
 3. [Projects](#projects)
 4. [C.S Fundamentals](#computer-science-fundamentals)
 5. [System Design 101](#system-design)
