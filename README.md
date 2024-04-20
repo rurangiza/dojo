@@ -246,7 +246,7 @@ graph TD
     - [ ] Authentication<span style="color:#9e9c9c;"> : users can signin/login..</span>
     - [ ] Caching
     - [ ] Testing
-    - [ ] Security<span style="color:#9e9c9c;"> : Your text here</span>
+    - [ ] Security<span style="color:#9e9c9c;"> : SSL, CORS, SQL injection..</span>
     - [ ] Deployment<span style="color:#9e9c9c;"> : site live at custom domain name</span>
 - [ ] Build to learn
     - [ ] CRUD apps
