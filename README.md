@@ -7,7 +7,6 @@
 1. [Data Structures, Algorithms & Key Concepts](#data-structures--algorithms)
 2. [Problem solving](#problem-solving)
 3. [Projects](#projects)
-4. [C.S Fundamentals](#computer-science-fundamentals)
 5. [System Design](#system-design) (Bonus)
 
 <hr>
@@ -112,6 +111,9 @@ graph TD
     15---> 18
     15---> 19
 ```
+
+<details>
+    <summary>Problem Sets</summary>
 
 ##### Arrays & Hashing
 |#|Title|Code|Time|Space|Difficulty|Notes|
@@ -219,6 +221,7 @@ graph TD
 |:-:|-|:-:|:-:|:--:|:--:|--|
 ||||||||
 
+</details>
 
 ### Challenges
 [![Arsène](https://www.codewars.com/users/rurangiza/badges/large)](https://www.codewars.com/users/rurangiza)
@@ -236,49 +239,61 @@ graph TD
 [⇪ **Back up**](#dojo)
 <hr>
 
-## Projects
+## Full-stack Web Development
+#### The internet
+- [ ] How does the internet works <span style="color:#9e9c9c;">.... [1](https://cs.fyi/guide/how-does-internet-work), [2](https://www.vox.com/2014/6/16/18076282/the-internet), [3](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm), [4](https://roadmap.sh/guides/what-is-internet), [5](https://www.youtube.com/watch?v=x3c1ih2NJEg), [6](https://www.youtube.com/watch?v=7_LPdttKXPc), [7](https://www.youtube.com/watch?v=zN8YNNHcaZc), [8](https://www.youtube.com/watch?v=erEgovG9WBs)</span>
+- [ ] Domain names/IP addresses <span style="color:#9e9c9c;">.... [1](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name), [2](https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/), [3](https://www.youtube.com/watch?v=Y4cRx19nhJk)</span>
+- [ ] DNS <span style="color:#9e9c9c;">........................................... [1](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/), [2](https://howdns.works/), [3](https://developer.mozilla.org/en-US/docs/Glossary/DNS), [4](https://www.youtube.com/watch?v=Wj0od2ag5sk), [5](https://www.youtube.com/watch?v=7lxgpKh_fRY), [6](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)</span>
+- [ ] HTTP <span style="color:#9e9c9c;">......................................... [1](https://cs.fyi/guide/http-in-depth), [2](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/), [3](https://www.youtube.com/watch?v=2JYT5f2isg4), [4](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), [5](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/), [6](https://www.youtube.com/watch?v=a-sBfyiXysI), [7](https://www.youtube.com/watch?v=iYM2zFP3Zn0), [8](https://www.youtube.com/watch?v=j9QmMEWmcfo)</span>
+- [ ] Browsers <span style="color:#9e9c9c;">................................... [1](https://web.dev/articles/howbrowserswork), [2](https://www.browserstack.com/guide/browser-rendering-engine), [3](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)</span>
+- [ ] Servers
+- [ ] What is hosting <span style="color:#9e9c9c;">.......................... [1](https://www.youtube.com/watch?v=htbY9-yggB0), [2](https://www.youtube.com/watch?v=AXVZYzw8geg), [3](https://www.youtube.com/watch?v=Kx_1NYYJS7Q), [4](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines), [5](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)</span>
+- [ ] ISO Model
+#### ⚙️ The Back-end
+> Save and manage data
 
-- [x] Learn a backend language
-- [ ] Learn backend programming <span style="color:#9e9c9c;">(see roadmap below)</span>
-    - [x] Version Control + Repo hosting services
-    - [ ] APIs<span style="color:#9e9c9c;"> : consume public APIs, build my own</span>
-    - [ ] Relational Databases <span style="color:#9e9c9c;"> : interact with a database</span>
-    - [ ] Authentication<span style="color:#9e9c9c;"> : users can signin/login..</span>
-    - [ ] Caching
-    - [ ] Testing
-    - [ ] Security<span style="color:#9e9c9c;"> : SSL, CORS, SQL injection..</span>
-    - [ ] Deployment<span style="color:#9e9c9c;"> : site live at custom domain name</span>
-- [ ] Build to learn
-    - [ ] CRUD apps
-    - [ ] Text editor
-    - [ ] Command line tool
-    - [ ] Front-end framework
-    - [ ] Programming language
-    - [x] [Web server](https://github.com/rurangiza/adars)
-    - [ ] Web browser
-    - [x] [Shell](https://github.com/rurangiza/minishell)
-- [ ] Build to solve personal problem
+- [x] [What is back-end web development](https://www.youtube.com/watch?v=XBu54nfzxAQ)
+- [x] Learn a backend language (Python)
+    - [x] [CS50's introduction to programming with Python](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
+- [x] Learn a micro-framework
+    - [ ] [Introduction to Flask](https://www.youtube.com/live/oVA0fD13NGI?si=VkWbXLY25LeUDkrE) / [Django](https://campus19.udemy.com/course/python-django-2021-complete-course/)
+    - [ ] [Documentation](https://flask.palletsprojects.com/en/3.0.x/)
+    - [ ] [Best practice handbook](https://docs.python-guide.org/#)
+- [ ] Learn backend development
+    - [ ] APIs<span style="color:#9e9c9c;">............................... [1](https://campus19.udemy.com/course/learn-and-understand-apis-and-restful-apis/), [2](https://campus19.udemy.com/course/rest-api-flask-and-python/)</span>
+    - [ ] Databases <span style="color:#9e9c9c;"> .....................[1](https://youtu.be/vHYeChEf2lA?si=mPEb39ipV__wbhXj), [2](https://campus19.udemy.com/course/complete-python-postgresql-database-course/)</span>
+    - [ ] Authentication <span style="color:#9e9c9c;">.............. [1](https://campus19.udemy.com/course/oauth-2-simplified/), [2](https://www.youtube.com/watch?v=71EU8gnZqZQ)</span>
+    - [ ] Testing <span style="color:#9e9c9c;"></span>
 
-![](./docs/backend%20roadmap.png)
+#### 🖼️ The Front-end
+> Visualize and interract with your data
+- [x] [Watch is Front-end web development](https://www.youtube.com/watch?v=WG5ikvJ2TKA) / [2](https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html)
+- [ ] Learn HTML
+- [ ] Learn CSS
+- [ ] Learn Javascript
+    - [ ] The basics ....................... [1](https://youtu.be/hdI2bqOjy3c?si=MxtRE83XoZHdfQd7), [2](https://learnjavascript.online/), [3](https://eloquentjavascript.net/)
+    - [ ] DOM manipulation .......... [1](https://eloquentjavascript.net/14_dom.html), [2](https://www.youtube.com/watch?v=0ik6X4DJKCc), [3](https://www.javascripttutorial.net/javascript-dom/), [4](https://www.youtube.com/watch?v=7Tok22qxPzQ), [5](https://javascript.info/document)
+    - [ ] Fetch API / AJAX (XHR) .. [1](https://web.dev/articles/introduction-to-fetch), [2](https://www.javascripttutorial.net/javascript-fetch-api/), [3](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), [4](https://www.youtube.com/watch?v=-ZI0ea5O2oA)
+    - [ ] Learn a framework (React, Angular, etc..)
 
-**FAQ**
-- [What is the back-end](https://www.youtube.com/watch?v=XBu54nfzxAQ)
-- [What is the front-end](https://www.youtube.com/watch?v=WG5ikvJ2TKA)
-- [How to connect them](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
+#### 🔗 Connecting the two / [how to](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
 
-[⇪ **Back up**](#dojo)
-<hr>
+#### 🥋 As a junior
 
-## Computer Science Fundamentals
-1. [Computer Networks](https://www.geeksforgeeks.org/basics-computer-networking/)
-    - [ ] How does the internet works? .. <span style="color:#9e9c9c;">[1](https://cs.fyi/guide/how-does-internet-work), [2](https://www.vox.com/2014/6/16/18076282/the-internet), [3](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm), [4](https://roadmap.sh/guides/what-is-internet), [5](https://www.youtube.com/watch?v=x3c1ih2NJEg), [6](https://www.youtube.com/watch?v=7_LPdttKXPc), [7](https://www.youtube.com/watch?v=zN8YNNHcaZc)</span>
-    - [ ] Domain names/IP addresses <span style="color:#9e9c9c;">.... [1](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name), [2](https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/), [3](https://www.youtube.com/watch?v=Y4cRx19nhJk)</span>
-    - [ ] DNS <span style="color:#9e9c9c;">........................................... [1](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/), [2](https://howdns.works/), [3](https://developer.mozilla.org/en-US/docs/Glossary/DNS), [4](https://www.youtube.com/watch?v=Wj0od2ag5sk), [5](https://www.youtube.com/watch?v=7lxgpKh_fRY), [6](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)</span>
-    - [ ] HTTP <span style="color:#9e9c9c;">......................................... [1](https://cs.fyi/guide/http-in-depth), [2](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/), [3](https://www.youtube.com/watch?v=2JYT5f2isg4), [4](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), [5](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/), [6](https://www.youtube.com/watch?v=a-sBfyiXysI), [7](https://www.youtube.com/watch?v=iYM2zFP3Zn0), [8](https://www.youtube.com/watch?v=j9QmMEWmcfo)</span>
-    - [ ] Browsers <span style="color:#9e9c9c;">................................... [1](https://web.dev/articles/howbrowserswork), [2](https://www.browserstack.com/guide/browser-rendering-engine), [3](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)</span>
-    - [ ] What is hosting <span style="color:#9e9c9c;">.......................... [1](https://www.youtube.com/watch?v=htbY9-yggB0), [2](https://www.youtube.com/watch?v=AXVZYzw8geg), [3](https://www.youtube.com/watch?v=Kx_1NYYJS7Q), [4](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines), [5](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)</span>
-2.  [Database Management Systems](https://en.wikipedia.org/wiki/Database) (DBMS)
-    - [ ] SQL <span style="color:#9e9c9c;">............................................ [1](https://youtu.be/vHYeChEf2lA?si=mPEb39ipV__wbhXj), [2](https://youtu.be/_2t18Hy9Z0Y?si=HzGXygBtNcBdPPva), [3](https://youtu.be/QzRW6bfv3Fo?si=sgTpJJ3miR11jkn2), [4](https://youtu.be/BD08USRd2M8?si=mmaHQ8cWLQYE9pco), [5](https://youtu.be/jZwGVuA8PMI?si=VirMG-8QNT-HzTKl), [6](https://youtu.be/qa5-mKVSQHQ?si=AQPZDIQUmLugK38Y), [7](https://youtu.be/jXbXGkgT2Xg?si=DnWi2fraJb1CPZO-)</span>
+**Need to know**
+- [ ] **CRUD**: Know how to perform basic Create Read Update and Delete operations. This tells me you know how to set up a Django application, core concepts and how to work with the database and views, and probably the template engine.
+- [ ] **Authentication, Authorization & User Roles**: Just like CRUD, handling user permissions and performing basic tasks like registering users and knowing how to work with sessions is a key part in most applications.
+- [ ] **Static files**: Images, PDF’s and other static files like CSS and JavaScript files. Do you know where to store these files and how to configure your app to handle user uploaded content?
+- [ ] **Building APIs**: Although not every app will have an API, its common practice to use a framework like Django to build an API to use with a frontend framework like React, Vue or Svelte, or even to just provide some public data. Know how API’s work + have a base understanding of implementing REST practices and how to build a Restful API using the Django REST framework.
+
+**Be able to build**
+- [ ] **To Do App** — start with some basic CRUD application to learn how to setup an app and work with the database. Challenge yourself and add authentication and user permissions. Try building it twice, one with function based views and one with class based views.
+- [ ] **Ecommerce website** — Along with basic CRUD and Authentication that most eCommerce site’s will need, you’ll learn more about complex database relationships when it comes to adding Products, Orders, Tags and more. Building an eCommerce site will teach you a lot about designing your models and complex queries. Let’s also add search, pagination and user roles to that equation.
+- [ ] **Social Network** — A social network will also force you to learn about designing your database. For example, how would you build out the “friends” or “following” feature’s? What about likes and determining what post a user will see in their feed.
+
+
+**Further Reading**
+- [Understanding asynchronous I/O; building an event loop from scratch](https://mbinjamil.dev/writings/understanding-async-io/) (Article)
 
 [⇪ **Back up**](#dojo)
 <hr>
@@ -286,7 +301,7 @@ graph TD
 ## System Design (Bonus)
 > Systems design is the process of defining and developing systems to satisfy specified requirements of the user. The basic study of system design is the understanding of component parts and their subsequent interaction with one another.
 
-**What is system design** [[1](https://youtu.be/i53Gi_K3o7I?si=KAb_rU6PrSVcqU1J), [2](https://www.youtube.com/watch?v=m8Icp_Cid5o), [3](https://www.amazon.com/gp/product/0071843655/), [3](https://youtu.be/MbjObHmDbZo?si=EHRkcaXlF9j5eNu4)]
+**What is system design** [[1](https://youtu.be/i53Gi_K3o7I?si=KAb_rU6PrSVcqU1J), [2](https://www.youtube.com/watch?v=m8Icp_Cid5o), [3](https://www.amazon.com/gp/product/0071843655/), [4](https://youtu.be/MbjObHmDbZo?si=EHRkcaXlF9j5eNu4)]
 
 **Main Components**
 - Web server ......................................... 1
@@ -312,11 +327,12 @@ graph TD
 - [Choosing technologies](https://newsletter.pragmaticengineer.com/p/real-world-engineering-challenges-55d)
 - [Breaking up a Monolith](https://newsletter.pragmaticengineer.com/p/real-world-eng-8)
 
-**Useful Links**
-- [Web Scalability for Startup Engineers](https://www.amazon.com/gp/product/0071843655/)
-- [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/gp/product/1449373321)
-- [Framework for system design interview](https://bytebytego.com/courses/system-design-interview/a-framework-for-system-design-interviews)
-- [Guide to System Design in 2024](https://www.educative.io/blog/complete-guide-to-system-design#horizontalandverticalscaling) on Educative
-- [System Design Roadmap](https://takeuforward.org/system-design/complete-system-design-roadmap-with-videos-for-sdes/) by Gaurav Sen
+**Further Reading**
+- [Operating Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- [Web Scalability for Startup Engineers](https://www.amazon.com/gp/product/0071843655/) (Book)
+- [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/gp/product/1449373321) (Book)
+- [Framework for system design interview](https://bytebytego.com/courses/system-design-interview/a-framework-for-system-design-interviews) (Article)
+- [Guide to System Design in 2024](https://www.educative.io/blog/complete-guide-to-system-design#horizontalandverticalscaling) on Educative (Article)
+- [System Design Roadmap](https://takeuforward.org/system-design/complete-system-design-roadmap-with-videos-for-sdes/) by Gaurav Sen (Article)
 
 [⇪ **Back up**](#dojo)
