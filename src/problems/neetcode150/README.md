@@ -8,7 +8,7 @@ graph TD
 %% Nodes
 
     2[<a href="#two-pointers">Two Pointers</a>]
-    3[<a>Stack</a>]
+    3[<a href="#stack">Stack</a>]
 
     4[<a href="#binary-search">Binary Search</a>]
     5[<a href="#sliding-window">Sliding Window</a>]

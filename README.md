@@ -60,15 +60,6 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
 
 - [x] [What is back-end web development](https://www.youtube.com/watch?v=XBu54nfzxAQ)
 - [x] Learn a backend language / [Python](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
-    - [x] Basic syntax
-    - [x] Exceptions
-    - [ ] Libraries
-    - [ ] Unit Tests
-    - [ ] File I/O
-    - [ ] Regular Expressions
-    - [ ] Object Oriented Programming
-    - [ ] More
-    - [ ] Learn a battery-included framework / [Django](https://youtu.be/o0XbHvKxw7Y?si=-W_i0fpOPQq3qhT4)
 - [ ] Learn backend development
     - [ ] Build a server with Python
     - [ ] Build a server with a micro-framework / [Flask](https://www.youtube.com/live/oVA0fD13NGI?si=VkWbXLY25LeUDkrE)
@@ -103,6 +94,9 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
     - [ ] **Ecommerce website** — Along with basic CRUD and Authentication that most eCommerce site’s will need, you’ll learn more about complex database relationships when it comes to adding Products, Orders, Tags and more. Building an eCommerce site will teach you a lot about designing your models and complex queries. Let’s also add search, pagination and user roles to that equation.
     - [ ] **Social Network** — A social network will also force you to learn about designing your database. For example, how would you build out the “friends” or “following” feature’s? What about likes and determining what post a user will see in their feed.
     ...
+
+[⇪ **Back up**](#dojo)
+<hr>
 
 ## Interests
 #### A.I
