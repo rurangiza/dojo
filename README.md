@@ -104,7 +104,7 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
     - [ ] **Social Network** — A social network will also force you to learn about designing your database. For example, how would you build out the “friends” or “following” feature’s? What about likes and determining what post a user will see in their feed.
     ...
 
-## Interests (locked)
+## Interests
 #### A.I
 - [ ] [The AI Engineer Path](https://scrimba.com/learn/aiengineer) by Scrimba
 - [ ] [DeepLearning.ai](https://www.deeplearning.ai/)
