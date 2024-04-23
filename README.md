@@ -7,8 +7,8 @@ Playground and guide for improving as a software engineer, specialized in web de
 **Outline**
 1. [Data Structures & Algorithms](#data-structures--algorithms)
 2. [Problem Solving](#problem-solving)
-3. [Web Development](#web-development) (not urgent)
-4. [Interests](#interests) (locked)
+3. [Web Development](#web-development)
+4. [Interests](#interests)
 
 <hr>
 
@@ -21,9 +21,9 @@ Playground and guide for improving as a software engineer, specialized in web de
 
 |[Data Structures](https://en.wikipedia.org/wiki/Data_structure) |Code|[Algorithms](https://en.wikipedia.org/wiki/Algorithm)|Code|
 |-|-|-|-|
-|[Dynamic Arrays](https://en.wikipedia.org/wiki/Dynamic_array)||[Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)||
+|[Dynamic Arrays](https://en.wikipedia.org/wiki/Dynamic_array)|[C](./src/theory/data_structures/vector.c) - [Python](./src/theory/data_structures/vector.py)|[Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)||
 |[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))||[Quick Sort](https://en.wikipedia.org/wiki/Quicksort)||
-|[Linked-List](https://en.wikipedia.org/wiki/Linked_list)||[Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)||
+|[Linked-List](https://en.wikipedia.org/wiki/Linked_list)|[C](./src/theory/data_structures/singly-linked-list.c) - [Python](./src/theory/data_structures/singly-linked-list.py)|[Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)||
 |[Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))||[Breath-First-Search](https://en.wikipedia.org/wiki/Breadth-first_search)||
 |[Hash Tables](https://en.wikipedia.org/wiki/Hash_table)||[Depth-First-Search](https://en.wikipedia.org/wiki/Depth-first_search)||
 |[Binary Trees](https://en.wikipedia.org/wiki/Binary_tree)||||
@@ -34,47 +34,41 @@ Playground and guide for improving as a software engineer, specialized in web de
 ## Problem Solving
 > For each data structure and algorithms, solve 3-5 problems + solve more random community made problems
 
-|Importance|Site|Description|Code|
-|-|-|-|-|
-|75%|[Neetcode 150](https://neetcode.io/practice)|Classic FAANG problems based on the Blind75 list|[Learn More](./src/problems/neetcode150/README.md)|
-|25%|[Codewars](https://www.codewars.com/) / [Codeforces](https://codeforces.com/) |Community challenges and contests|[Learn More](./src/problems/challenges-cp/README.md)|
+|Type|Description|Sites|Code|
+|:-:|-|-|:-:|
+|Blind75+|a list of the 75 most frequently asked leetcode questions|[Neetcode](https://neetcode.io/practice), [Leetcode](https://leetcode.com/)|[Here](./src/problems/neetcode150/README.md)|
+|Competitive Programming| Community challenges and contests|[Codeforces](https://codeforces.com/), [AtCoder](https://atcoder.jp/), [HackerRank](https://www.hackerrank.com), [Codewars](https://www.codewars.com/) |[Here](./src/problems/challenges-cp/README.md)|
 
 [⇪ **Back up**](#dojo)
 <hr>
 
 ## Web Development
-The web is the ultimate canvas, a plateform with 5 billion daily active users, all connected to each other and any ressource accessible from anywhere via a link.
-#### The internet
-- [ ] How does the internet work <span style="color:#9e9c9c;">.... [1](https://cs.fyi/guide/how-does-internet-work), [2](https://www.vox.com/2014/6/16/18076282/the-internet), [3](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm), [4](https://roadmap.sh/guides/what-is-internet), [5](https://www.youtube.com/watch?v=x3c1ih2NJEg), [6](https://www.youtube.com/watch?v=7_LPdttKXPc), [7](https://www.youtube.com/watch?v=zN8YNNHcaZc), [8](https://www.youtube.com/watch?v=erEgovG9WBs)</span>
-[Learn more ⇩](#cs-fundamentals)
-- [ ] Domain names/IP addresses <span style="color:#9e9c9c;">.... [1](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name), [2](https://www.cloudflare.com/en-gb/learning/dns/glossary/what-is-a-domain-name/), [3](https://www.youtube.com/watch?v=Y4cRx19nhJk)</span>
-- [ ] DNS <span style="color:#9e9c9c;">........................................... [1](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/), [2](https://howdns.works/), [3](https://developer.mozilla.org/en-US/docs/Glossary/DNS), [4](https://www.youtube.com/watch?v=Wj0od2ag5sk), [5](https://www.youtube.com/watch?v=7lxgpKh_fRY), [6](https://www.youtube.com/watch?v=zEmUuNFBgN8&list=PLTk5ZYSbd9MhMmOiPhfRJNW7bhxHo4q-K)</span>
-- [ ] HTTP <span style="color:#9e9c9c;">......................................... [1](https://cs.fyi/guide/http-in-depth), [2](https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/), [3](https://www.youtube.com/watch?v=2JYT5f2isg4), [4](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview), [5](https://www.smashingmagazine.com/2021/08/http3-core-concepts-part1/), [6](https://www.youtube.com/watch?v=a-sBfyiXysI), [7](https://www.youtube.com/watch?v=iYM2zFP3Zn0), [8](https://www.youtube.com/watch?v=j9QmMEWmcfo)</span>
-- [ ] Browsers <span style="color:#9e9c9c;">................................... [1](https://web.dev/articles/howbrowserswork), [2](https://www.browserstack.com/guide/browser-rendering-engine), [3](https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work)</span>
-- [ ] Servers
-- [ ] What is hosting <span style="color:#9e9c9c;">.......................... [1](https://www.youtube.com/watch?v=htbY9-yggB0), [2](https://www.youtube.com/watch?v=AXVZYzw8geg), [3](https://www.youtube.com/watch?v=Kx_1NYYJS7Q), [4](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines), [5](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server)</span>
-- [ ] ISO Model
+The web is the ultimate canvas, a plateform with 5 billion daily active users, all connected to each other and all content accessible from anywhere via a link.
+### 🌐 The internet
+- [ ] How the internet works <span style="color:#9e9c9c;">............. [1](https://cs.fyi/guide/how-does-internet-work), [2](https://www.vox.com/2014/6/16/18076282/the-internet), [3](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm), [4](https://roadmap.sh/guides/what-is-internet), [5](https://www.youtube.com/watch?v=x3c1ih2NJEg), [6](https://www.youtube.com/watch?v=7_LPdttKXPc), [7](https://www.youtube.com/watch?v=zN8YNNHcaZc), [8](https://www.youtube.com/watch?v=erEgovG9WBs)</span>
 
-#### ⚙️ The Back-end
+### ⚙️ The Back-end
 > Save and manage data
 
 - [x] [What is back-end web development](https://www.youtube.com/watch?v=XBu54nfzxAQ)
 - [x] Learn a backend language / [Python](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
 - [ ] Learn backend development
-    - [ ] Build a server with Python
-    - [ ] Build a server with a micro-framework / [Flask](https://www.youtube.com/live/oVA0fD13NGI?si=VkWbXLY25LeUDkrE)
-    - Learn about API design
+    - [ ] **Action!** Build a web server with Python [[video](https://www.youtube.com/watch?v=PNt8zXl7EJ0), [article](https://ruslanspivak.com/lsbaws-part1/)]
+    - [ ] **Action!** Build a web browser with Python [[video](https://youtu.be/Fxgw_BxZg2I?si=mdn7K3EMlXLWS4Ep), [article](https://browser.engineering/)]
+    - [ ] Learn a backend web framework / [Flask](https://youtu.be/-aqUek49iL8?si=osucIRALKvtn5-Lm)
+    - [ ] **Action!** Build a web server with Flask [[video](https://www.youtube.com/live/oVA0fD13NGI?si=VkWbXLY25LeUDkrE), [article](https://blog.luisrei.com/articles/flaskrest.html)]
+    - [ ] Learn about API design
         - [ ] [Understanding APIs and RESTful APIs](https://campus19.udemy.com/course/learn-and-understand-apis-and-restful-apis/)
         - [ ] [REST APIs with Flask](https://campus19.udemy.com/course/rest-api-flask-and-python/)
-    - Learn about Database management
+    - [ ] Learn about Database management
         - [ ] [CS50 SQL](https://www.youtube.com/watch?v=vHYeChEf2lA)
         - [ ] [Python/PostgreSQL Course](https://campus19.udemy.com/course/complete-python-postgresql-database-course/)
-    - Learn about Authentication, Authorization & User roles
+    - [ ] Learn about Authentication, Authorization & User roles
         - [ ] [The Nuts and Bolts of OAuth 2.0](https://campus19.udemy.com/course/oauth-2-simplified/)
         - [ ] [Learn Flask Login](https://www.youtube.com/watch?v=71EU8gnZqZQ)
-- [ ] Build CLI tools
+- [ ] **Action!** Build CLI tools
 
-## 🖼️ The Front-end
+### 🖼️ The Front-end
 > Visualize and interract with your data
 - [x] [What is Front-end web development](https://www.youtube.com/watch?v=WG5ikvJ2TKA) / [The job](https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html) / [Roadmap](https://roadmap.sh/frontend)
 - [x] Learn HTML
@@ -86,14 +80,37 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
     - [ ] Fetch API / AJAX (XHR) .. [1](https://web.dev/articles/introduction-to-fetch), [2](https://www.javascripttutorial.net/javascript-fetch-api/), [3](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), [4](https://www.youtube.com/watch?v=-ZI0ea5O2oA)
     - [ ] Framework / [React](https://www.joyofreact.com/)
     - [ ] More: [Webpack](https://www.youtube.com/watch?v=IZGNcSuwBZs&t=1s), [Typescript](https://www.youtube.com/watch?v=BCg4U1FzODs), etc..
-- [ ] Build interractive web pages
+- [ ] **Action!** Build interractive web pages
+<hr>
 
-#### 🔗 [Connecting the front-end to the back-end](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
-- [ ] Build full-stack web apps
-    - [ ] **To Do App** — start with some basic CRUD application to learn how to setup an app and work with the database. Challenge yourself and add authentication and user permissions. Try building it twice, one with function based views and one with class based views.
+- [ ] [How to connect the front-end with the back-end](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
+
+<hr>
+
+### 🔗 Building, Building and Building! 
+
+- [ ] Building for learning:
+    - [ ] **To Do App** — start with some basic CRUD application to learn how to setup an app and work with the database. Challenge yourself and add authentication and user permissions.
     - [ ] **Ecommerce website** — Along with basic CRUD and Authentication that most eCommerce site’s will need, you’ll learn more about complex database relationships when it comes to adding Products, Orders, Tags and more. Building an eCommerce site will teach you a lot about designing your models and complex queries. Let’s also add search, pagination and user roles to that equation.
     - [ ] **Social Network** — A social network will also force you to learn about designing your database. For example, how would you build out the “friends” or “following” feature’s? What about likes and determining what post a user will see in their feed.
+- [ ] Build to solve personal problems based on [interests ⇩](#interests)
     ...
+
+[⇪ **Back up**](#dojo)
+<hr>
+
+### 🚀 Ready, set, deploy!
+Now that you have a functional full-stack web app, here is how to make it available to everyone else on the internet.
+- **Rent a Server**: This typically means purchasing hosting from a service provider. Options include:
+    - [shared hosting](https://en.wikipedia.org/wiki/Shared_web_hosting_service)
+    - [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server) (VPS)
+    - or [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service).
+
+    Services: [02Switch](https://www.o2switch.fr/), [AWS](https://aws.amazon.com/websites/)
+- **Upload your files**: adding HTML, CSS, JavaScript, and media files, to your server using FTP, SSH, or a web-based interface provided by your host.
+- **Buy a Domain Name**: Register a domain name through a domain registrar. This will be the address that users type into their browser to access your site.
+    Services: [Namecheap](https://www.namecheap.com/domains/), [Cloudflare](https://www.cloudflare.com/en-gb/products/registrar/)
+- **Associate the Domain Name to the Server**: This involves configuring DNS settings to point your domain name to the IP address of your server, usually by setting A or CNAME records through your domain registrar’s panel.
 
 [⇪ **Back up**](#dojo)
 <hr>
@@ -122,7 +139,6 @@ keywords: `the creative process` `Ideas` `generating ideas` `connecting ideas` `
     - Ada Lovelace
     - Douglas Engelbart
     - Alan Kay
-    - Earl Nightingale: Creative Thinking, Acres of diamonds, The strangest secret
 
 [⇪ **Back up**](#dojo)
 <hr>

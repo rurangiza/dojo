@@ -1,0 +1,9 @@
+The C++ code snippet you provided reads words from the file one at a time
+because the extraction operator >> for cin reads up to whitespace.
+It does not read the entire file at once. Each new word read by cin >> content
+overwrites the previous word stored in content. Consequently, only the last word
+read before the end of the file is output by cout << content.
+
+To read the entire file into a string, consider using std::getline with a loop
+to read line by line, appending each line to a string. Here's how you could
+modify the code

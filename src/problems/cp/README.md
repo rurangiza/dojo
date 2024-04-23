@@ -7,15 +7,11 @@ Competitive programming or CP is a mind sport where participants need to write e
 Another option is [AtCoder Beginner Contests](https://atcoder.jp/home) (**ABC**). Once ABCs become too easy move on to **ARCs** (AtCode Regular Contests) and then **AGCs**.
 - [ ] Simultaniously read the book [The Competitive Programmer Handbook](./docs/the-cp-handbook.pdf)
 
-## Benefits of doing CP
-- Improves you problem solving skills
-- It's a fun way to prepare for coding interviews
-
-**Tips**
+## Tips
 - Spend 5% time reading and the rest solving problems
 - Don't compare yourself to others
 
-## Useful Links
-- [Guide to Competitive Programming](https://www.reddit.com/r/csMajors/comments/z4qjzx/a_guide_to_competitive_programming/)
+**Useful Links**
+- Reddit/Codeforces posts on CP ..... [1](https://www.reddit.com/r/csMajors/comments/z4qjzx/a_guide_to_competitive_programming/), [2](https://www.reddit.com/r/csMajors/comments/yvgor9/guide_how_to_actually_get_good_at_leetcode/), [3](https://codeforces.com/blog/entry/53341), [4](https://codeforces.com/blog/entry/91114), [5](https://codeforces.com/blog/entry/98806), [6]()
 - [Starting Competitive Programming - Steps and Mistakes](https://www.youtube.com/watch?v=bVKHRtafgPc)
 - [How to start Competitive Programming? For beginners!](https://www.youtube.com/watch?v=xAeiXy8-9Y8)
