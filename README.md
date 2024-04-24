@@ -19,25 +19,25 @@ Playground and guide for improving as a software engineer, specialized in web de
 - [x] Watch: [Introduction to Algorithms](https://www.youtube.com/live/4oqjcKenCH8?si=58ALyCO1klKIUVnm)
 > For each data structure and algorithm, learn the theory and concepts, implement it in code then solve related problems.
 
-|[Data Structures](https://en.wikipedia.org/wiki/Data_structure) |Code|[Algorithms](https://en.wikipedia.org/wiki/Algorithm)|Code|
-|-|-|-|-|
-|[Dynamic Arrays](https://en.wikipedia.org/wiki/Dynamic_array)|[C](./src/theory/data_structures/vector.c) - [Python](./src/theory/data_structures/vector.py)|[Merge Sort](https://en.wikipedia.org/wiki/Merge_sort)||
-|[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))||[Quick Sort](https://en.wikipedia.org/wiki/Quicksort)||
-|[Linked-List](https://en.wikipedia.org/wiki/Linked_list)|[C](./src/theory/data_structures/singly-linked-list.c) - [Python](./src/theory/data_structures/singly-linked-list.py)|[Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm)||
-|[Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))||[Breath-First-Search](https://en.wikipedia.org/wiki/Breadth-first_search)||
-|[Hash Tables](https://en.wikipedia.org/wiki/Hash_table)||[Depth-First-Search](https://en.wikipedia.org/wiki/Depth-first_search)||
-|[Binary Trees](https://en.wikipedia.org/wiki/Binary_tree)||||
-|[Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))||||
-|[Tries](https://en.wikipedia.org/wiki/Trie)||||
-|[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))||||
+|[Data Structures](https://en.wikipedia.org/wiki/Data_structure) |Code|[Algorithms](https://en.wikipedia.org/wiki/Algorithm)|Code|Techniques|Code|
+|-|-|-|-|-|-|
+|[Dynamic Arrays](https://neetcode.io/courses/dsa-for-beginners/3)|[C](./src/theory/data_structures/vector.c) - [Python](./src/theory/data_structures/vector.py)|[Merge Sort](https://neetcode.io/courses/dsa-for-beginners/11)||[Two Pointers](https://neetcode.io/courses/advanced-algorithms/3)||
+|[Stack](https://neetcode.io/courses/dsa-for-beginners/4)||[Quick Sort](https://neetcode.io/courses/dsa-for-beginners/12)||[Prefix Sum](https://neetcode.io/courses/advanced-algorithms/4)||
+|[Linked-List](https://neetcode.io/courses/dsa-for-beginners/5)|[C](./src/theory/data_structures/singly-linked-list.c) - [Python](./src/theory/data_structures/singly-linked-list.py)|[Binary Search](https://neetcode.io/courses/dsa-for-beginners/14)||[Sliding Window](https://neetcode.io/courses/advanced-algorithms/1)||
+|[Queues](https://neetcode.io/courses/dsa-for-beginners/7)||[Breath-First-Search](https://neetcode.io/courses/dsa-for-beginners/20)||||
+|[Hash Tables](https://neetcode.io/courses/dsa-for-beginners/26)||[Depth-First-Search](https://neetcode.io/courses/dsa-for-beginners/19)||||
+|[Binary Trees](https://neetcode.io/courses/dsa-for-beginners/16)||||||
+|[Graph](https://neetcode.io/courses/dsa-for-beginners/28)||||||
+|[Tries](https://neetcode.io/courses/advanced-algorithms/6)||||||
+|[Heap](https://neetcode.io/courses/dsa-for-beginners/23)||||||
 
 ## Problem Solving
 > For each data structure and algorithms, solve 3-5 problems + solve more random community made problems
 
-|Type|Description|Sites|Code|
+|Site|Description|Goal|Code|
 |:-:|-|-|:-:|
-|Blind75+|a list of the 75 most frequently asked leetcode questions|[Neetcode](https://neetcode.io/practice), [Leetcode](https://leetcode.com/)|[Here](./src/problems/neetcode150/README.md)|
-|Competitive Programming| Community challenges and contests|[Codeforces](https://codeforces.com/), [AtCoder](https://atcoder.jp/), [HackerRank](https://www.hackerrank.com), [Codewars](https://www.codewars.com/) |[Here](./src/problems/challenges-cp/README.md)|
+|[Neetcode 150](https://neetcode.io/practice)|classic problems to become comfortable with common data structures, algorithms and techniques|50|[Here](./src/problems/leetcode/README.md)|
+|[Codewars](https://www.codewars.com/)| Community challenges|Kyu 4|[Here](./src/problems/cp/README.md)|
 
 [⇪ **Back up**](#dojo)
 <hr>
@@ -55,17 +55,17 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
 - [ ] Learn backend development
     - [ ] **Action!** Build a web server with Python [[video](https://www.youtube.com/watch?v=PNt8zXl7EJ0), [article](https://ruslanspivak.com/lsbaws-part1/)]
     - [ ] **Action!** Build a web browser with Python [[video](https://youtu.be/Fxgw_BxZg2I?si=mdn7K3EMlXLWS4Ep), [article](https://browser.engineering/)]
-    - [ ] Learn a backend web framework / [Flask](https://youtu.be/-aqUek49iL8?si=osucIRALKvtn5-Lm)
+    - [ ] Learn a micro-framework / [Flask](https://youtu.be/-aqUek49iL8?si=osucIRALKvtn5-Lm)
     - [ ] **Action!** Build a web server with Flask [[video](https://www.youtube.com/live/oVA0fD13NGI?si=VkWbXLY25LeUDkrE), [article](https://blog.luisrei.com/articles/flaskrest.html)]
     - [ ] Learn about API design
         - [ ] [Understanding APIs and RESTful APIs](https://campus19.udemy.com/course/learn-and-understand-apis-and-restful-apis/)
         - [ ] [REST APIs with Flask](https://campus19.udemy.com/course/rest-api-flask-and-python/)
     - [ ] Learn about Database management
-        - [ ] [CS50 SQL](https://www.youtube.com/watch?v=vHYeChEf2lA)
-        - [ ] [Python/PostgreSQL Course](https://campus19.udemy.com/course/complete-python-postgresql-database-course/)
+        - [ ] [SQL](https://www.youtube.com/watch?v=vHYeChEf2lA) / [Practice](https://www.hackerrank.com/domains/sql)
+        - [ ] [Python/PostgreSQL](https://campus19.udemy.com/course/complete-python-postgresql-database-course/)
     - [ ] Learn about Authentication, Authorization & User roles
         - [ ] [The Nuts and Bolts of OAuth 2.0](https://campus19.udemy.com/course/oauth-2-simplified/)
-        - [ ] [Learn Flask Login](https://www.youtube.com/watch?v=71EU8gnZqZQ)
+        - [ ] [Flask Login](https://www.youtube.com/watch?v=71EU8gnZqZQ)
 - [ ] **Action!** Build CLI tools
 
 ### 🖼️ The Front-end
@@ -73,27 +73,21 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
 - [x] [What is Front-end web development](https://www.youtube.com/watch?v=WG5ikvJ2TKA) / [The job](https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html) / [Roadmap](https://roadmap.sh/frontend)
 - [x] Learn HTML
 - [x] Learn CSS
-    - [ ] [Bootstrap](https://youtu.be/Jyvffr3aCp0?si=31Akj6ani2IbZr3N) or [Tailwind](https://www.youtube.com/watch?v=UBOj6rqRUME)
 - [ ] Learn Javascript
-    - [ ] The basics ....................... [1](https://youtu.be/hdI2bqOjy3c?si=MxtRE83XoZHdfQd7), [2](https://learnjavascript.online/), [3](https://eloquentjavascript.net/)
-    - [ ] DOM manipulation .......... [1](https://eloquentjavascript.net/14_dom.html), [2](https://www.youtube.com/watch?v=0ik6X4DJKCc), [3](https://www.javascripttutorial.net/javascript-dom/), [4](https://www.youtube.com/watch?v=7Tok22qxPzQ), [5](https://javascript.info/document)
-    - [ ] Fetch API / AJAX (XHR) .. [1](https://web.dev/articles/introduction-to-fetch), [2](https://www.javascripttutorial.net/javascript-fetch-api/), [3](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), [4](https://www.youtube.com/watch?v=-ZI0ea5O2oA)
-    - [ ] Framework / [React](https://www.joyofreact.com/)
-    - [ ] More: [Webpack](https://www.youtube.com/watch?v=IZGNcSuwBZs&t=1s), [Typescript](https://www.youtube.com/watch?v=BCg4U1FzODs), etc..
+    - [ ] [The basics](https://youtu.be/hdI2bqOjy3c?si=MxtRE83XoZHdfQd7)
+    - [ ] [DOM manipulation](https://www.youtube.com/watch?v=0ik6X4DJKCc)
+    - [ ] [Fetch API / AJAX (XHR)](https://www.youtube.com/watch?v=-ZI0ea5O2oA)
 - [ ] **Action!** Build interractive web pages
-<hr>
 
-- [ ] [How to connect the front-end with the back-end](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
+### 🔗 Build, Build and Build!
+> Now that you know enough about the front-end and back-end, consolidate your knowledge by building full-stack web apps. The goal is not to do it perfectly, but to understand how web apps work before introducing other abstractions like frameworks/libraries, transpilers, etc.. 
 
-<hr>
-
-### 🔗 Building, Building and Building! 
-
+- [ ] [How the front-end connects to the back-end](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
 - [ ] Building for learning:
     - [ ] **To Do App** — start with some basic CRUD application to learn how to setup an app and work with the database. Challenge yourself and add authentication and user permissions.
     - [ ] **Ecommerce website** — Along with basic CRUD and Authentication that most eCommerce site’s will need, you’ll learn more about complex database relationships when it comes to adding Products, Orders, Tags and more. Building an eCommerce site will teach you a lot about designing your models and complex queries. Let’s also add search, pagination and user roles to that equation.
     - [ ] **Social Network** — A social network will also force you to learn about designing your database. For example, how would you build out the “friends” or “following” feature’s? What about likes and determining what post a user will see in their feed.
-- [ ] Build to solve personal problems based on [interests ⇩](#interests)
+- [ ] Building for fun based on [interests ⇩](#interests)
     ...
 
 [⇪ **Back up**](#dojo)
@@ -119,7 +113,7 @@ Now that you have a functional full-stack web app, here is how to make it availa
 #### A.I
 - [ ] [The AI Engineer Path](https://scrimba.com/learn/aiengineer) by Scrimba
 - [ ] [DeepLearning.ai](https://www.deeplearning.ai/)
-#### Tools for Thought
+#### Tools For Thought
 keywords: `the creative process` `Ideas` `generating ideas` `connecting ideas` `environment for ideas to grow` `explorable explanations` `the interface is the product` `information design` `personal software`
 - **Quotes**
     > *For me ideas are very important. Bringing ideas into the world is one of the most important thing people can do. And I think that great ideas in the form of great art, stories, inventions, scientific theories,.. these things take on life of their own and give meaning to our lives.*
