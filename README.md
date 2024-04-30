@@ -1,5 +1,11 @@
 # Dojo
 
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+
 ![](./docs/Room_of_Spirit_and_Time.png)
 
 Playground and guide for improving as a software engineer, specialized in web development and interested in tools for thoughts.
