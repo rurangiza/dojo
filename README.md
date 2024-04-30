@@ -1,7 +1,6 @@
 # Dojo
 ![](./docs/Room_of_Spirit_and_Time.png)
 
-Playground and guide for improving as a software engineer, specialized in web development and interested in tools for thoughts.
 
 **Outline**
 1. [Problem Solving](#problem-solving)
@@ -67,6 +66,7 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
 - [ ] [Overview](https://roadmap.sh/guides/what-is-internet) / [high-level](https://cs.fyi/guide/how-does-internet-work) / [low-level](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 
 ### ⚙️ The Back-end
+> [!Note]
 > Save and manage data
 
 - [x] [What is back-end web development](https://www.youtube.com/watch?v=XBu54nfzxAQ)
@@ -100,8 +100,10 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
     - [ ] [Fetch API / AJAX (XHR)](https://www.youtube.com/watch?v=-ZI0ea5O2oA)
 - [ ] **Action!** Build interractive web pages
 
-### 🚀 Ready, set, deploy!
-Now that you have a functional full-stack web app, here is how to make it available to everyone else on the internet.
+### 🚀 Launch
+> [!Note]
+> Make your app/site available to everyone
+
 - **Rent a Server**: This typically means purchasing hosting from a service provider. Options include:
     - [shared hosting](https://en.wikipedia.org/wiki/Shared_web_hosting_service)
     - [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server) (VPS)
@@ -113,6 +115,9 @@ Now that you have a functional full-stack web app, here is how to make it availa
     Services: [Namecheap](https://www.namecheap.com/domains/), [Cloudflare](https://www.cloudflare.com/en-gb/products/registrar/)
 - **Associate the Domain Name to the Server**: This involves configuring DNS settings to point your domain name to the IP address of your server, usually by setting A or CNAME records through your domain registrar’s panel.
 
+[⇪ **Back up**](#dojo)
+
+<hr>
 <details>
     <summary>Practice Projects</summary>
 
@@ -132,10 +137,8 @@ Now that you know enough about the front-end and back-end, consolidate your know
 **Useful Ressources**
 - [Good practices for Python projects](https://docs.python-guide.org/) (online book)
 
-</details>
---
 
-[⇪ **Back up**](#dojo)
+</details>
 <hr>
 
 ## Computer Science Fundamentals
