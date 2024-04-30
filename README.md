@@ -5,47 +5,67 @@
 Playground and guide for improving as a software engineer, specialized in web development and interested in tools for thoughts.
 
 **Outline**
-1. [Data Structures & Algorithms](#data-structures--algorithms)
-2. [Problem Solving](#problem-solving)
-3. [Web Development](#web-development)
-4. [Interests](#interests)
+1. [Problem Solving](#problem-solving)
+2. [Web Development](#web-development)
+3. [Computer Science Fundamentals](#computer-science-fundamentals)
+4. [System Design](#system-design)
 
 <hr>
 
-## Data Structures & Algorithms
-> Data structures and algorithms help organize and process data efficiently. Data structures optimize storage and operations for specific needs, algorithms provide methods for tasks like sorting and searching. Understanding them is essential for developing efficient, scalable software, enabling developers to tackle complex problems and create faster, resource-effective applications.
+## Problem Solving
+### Data Structures, Algorithms, etc..
 
 - [x] Watch: [Introduction to Data Structures](https://www.youtube.com/watch?v=X8h4dq9Hzq8)
 - [x] Watch: [Introduction to Algorithms](https://www.youtube.com/live/4oqjcKenCH8?si=58ALyCO1klKIUVnm)
-> For each data structure and algorithm, learn the theory and concepts, implement it in code then solve related problems.
 
-|[Data Structures](https://en.wikipedia.org/wiki/Data_structure) |Code|[Algorithms](https://en.wikipedia.org/wiki/Algorithm)|Code|Techniques|Code|
-|-|-|-|-|-|-|
-|[Dynamic Arrays](https://neetcode.io/courses/dsa-for-beginners/3)|[C](./src/theory/data_structures/vector.c) - [Python](./src/theory/data_structures/vector.py)|[Merge Sort](https://neetcode.io/courses/dsa-for-beginners/11)||[Two Pointers](https://neetcode.io/courses/advanced-algorithms/3)||
-|[Stack](https://neetcode.io/courses/dsa-for-beginners/4)||[Quick Sort](https://neetcode.io/courses/dsa-for-beginners/12)||[Prefix Sum](https://neetcode.io/courses/advanced-algorithms/4)||
-|[Linked-List](https://neetcode.io/courses/dsa-for-beginners/5)|[C](./src/theory/data_structures/singly-linked-list.c) - [Python](./src/theory/data_structures/singly-linked-list.py)|[Binary Search](https://neetcode.io/courses/dsa-for-beginners/14)||[Sliding Window](https://neetcode.io/courses/advanced-algorithms/1)||
-|[Queues](https://neetcode.io/courses/dsa-for-beginners/7)||[Breath-First-Search](https://neetcode.io/courses/dsa-for-beginners/20)||||
-|[Hash Tables](https://neetcode.io/courses/dsa-for-beginners/26)||[Depth-First-Search](https://neetcode.io/courses/dsa-for-beginners/19)||||
-|[Binary Trees](https://neetcode.io/courses/dsa-for-beginners/16)||||||
-|[Graph](https://neetcode.io/courses/dsa-for-beginners/28)||||||
-|[Tries](https://neetcode.io/courses/advanced-algorithms/6)||||||
-|[Heap](https://neetcode.io/courses/dsa-for-beginners/23)||||||
+> [!Note]
+> For each data structure, algorithm, etc.. first learn the theory and concepts, then implement it in code and finaly solve related problems (6 easy, 3 medium, 1 hard).
 
-## Problem Solving
-> For each data structure and algorithms, solve 3-5 problems + solve more random community made problems
+||Data Structures |Implementation|Exercices|
+|-|:-|:-|:-|
+|<ul><li>- [ ] </li>|[Dynamic Arrays](https://en.wikipedia.org/wiki/Dynamic_array)|[C](./src/theory/data_structures/vector.c) - [Python](./src/theory/data_structures/vector.py)|[Leetcode](https://leetcode.com/tag/array/)|
+|<ul><li>- [ ] </li>|[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/stack/)|
+|<ul><li>- [ ] </li>|[Linked-List](https://en.wikipedia.org/wiki/Linked_list)|[C](./src/theory/data_structures/singly-linked-list.c) - [Python](./src/theory/data_structures/singly-linked-list.py)|[Leetcode](https://leetcode.com/tag/linked-list/)|
+|<ul><li>- [ ] </li>|[Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/queue/)|
+|<ul><li>- [ ] </li>|[Hash Tables](https://en.wikipedia.org/wiki/Hash_table)||[Leetcode](https://leetcode.com/tag/hash-table/)|
+|<ul><li>- [ ] </li>|[Binary Trees](https://en.wikipedia.org/wiki/Binary_tree)||[Leetcode](https://leetcode.com/tag/binary-tree/)|
+|<ul><li>- [ ] </li>|[Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/graph/)|
+|<ul><li>- [ ] </li>|[Tries](https://en.wikipedia.org/wiki/Tree_(data_structure))||[Leetcode](https://leetcode.com/tag/trie/)|
+|<ul><li>- [ ] </li>|[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
+|||||
+||**Algorithms**|**Implementation**|**Exercices**|
+|<ul><li>- [ ] </li>|[Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA)||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
+|<ul><li>- [ ] </li>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc)||[Leetcode](https://leetcode.com/tag/sorting/)|
+|<ul><li>- [ ] </li>|[Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp)||[Leetcode](https://leetcode.com/tag/sorting/)|
+|<ul><li>- [ ] </li>|[Binary Search](https://youtu.be/fDKIpRe8GW4?si=WGFySWh7-3bU_iPX)||[Leetcode](https://leetcode.com/tag/binary-search/)|
+|<ul><li>- [ ] </li>|[Breath-First-Search](https://www.youtube.com/watch?v=HZ5YTanv5QE)||[Leetcode](https://leetcode.com/tag/breadth-first-search/)|
+|<ul><li>- [ ] </li>|[Depth-First-Search](https://www.youtube.com/watch?v=Urx87-NMm6c)||[Leetcode](https://leetcode.com/tag/depth-first-search/)|
+|||||
+||**Techniques**|**Implementation**|**Exercices**|
+|<ul><li>- [ ] </li>|[Two Pointers](https://www.youtube.com/watch?v=-gjxg6Pln50)||[Leetcode](https://leetcode.com/tag/two-pointers/)|
+|<ul><li>- [ ] </li>|[Prefix Sum](https://www.youtube.com/watch?v=7pJo_rM0z_s)||[Leetcode](https://leetcode.com/tag/prefix-sum/)|
+|<ul><li>- [ ] </li>|[Sliding Window](https://www.youtube.com/watch?v=p-ss2JNynmw)||[Leetcode](https://leetcode.com/tag/sliding-window/)|
+|||||
+||**Math**|**Ressources**|**Exercices**|
+|<ul><li>- [ ] </li>|Algebra|[Khan Academy](https://en.khanacademy.org/math/algebra)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
+|<ul><li>- [ ] </li>|Combinatorix|[Khan Academy](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:prob-comb)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
+|<ul><li>- [ ] </li>|Modular Arithmetic|[Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
+|<ul><li>- [ ] </li>|Number Theory|[Khan Academy](https://www.youtube.com/playlist?list=PL-BD05SCClbag8KTPzaPzzggJ96aBsVkT)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
 
+### Challenges & Contests
 |Site|Description|Goal|Code|
 |:-:|-|-|:-:|
-|[Neetcode 150](https://neetcode.io/practice)|classic problems to become comfortable with common data structures, algorithms and techniques|50|[Here](./src/problems/leetcode/README.md)|
-|[Codewars](https://www.codewars.com/)| Community challenges|Kyu 4|[Here](./src/problems/cp/README.md)|
+|[Codewars](https://www.codewars.com/)| Community challenges||/|
+|[CodeForce]()|Competitive Programming||/|
+|[Project Euler]()|Math focused challenges||/|
 
 [⇪ **Back up**](#dojo)
 <hr>
 
 ## Web Development
 The web is the ultimate canvas, a plateform with 5 billion daily active users, all connected to each other and all content accessible from anywhere via a link.
-### 🌐 The internet
-- [ ] How the internet works <span style="color:#9e9c9c;">............. [1](https://cs.fyi/guide/how-does-internet-work), [2](https://www.vox.com/2014/6/16/18076282/the-internet), [3](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm), [4](https://roadmap.sh/guides/what-is-internet), [5](https://www.youtube.com/watch?v=x3c1ih2NJEg), [6](https://www.youtube.com/watch?v=7_LPdttKXPc), [7](https://www.youtube.com/watch?v=zN8YNNHcaZc), [8](https://www.youtube.com/watch?v=erEgovG9WBs)</span>
+### 🌐 How the internet works
+- [ ] [Overview](https://roadmap.sh/guides/what-is-internet) / [high-level](https://cs.fyi/guide/how-does-internet-work) / [low-level](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 
 ### ⚙️ The Back-end
 > Save and manage data
@@ -69,7 +89,9 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
 - [ ] **Action!** Build CLI tools
 
 ### 🖼️ The Front-end
+> [!Note]
 > Visualize and interract with your data
+
 - [x] [What is Front-end web development](https://www.youtube.com/watch?v=WG5ikvJ2TKA) / [The job](https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html) / [Roadmap](https://roadmap.sh/frontend)
 - [x] Learn HTML
 - [x] Learn CSS
@@ -78,20 +100,6 @@ The web is the ultimate canvas, a plateform with 5 billion daily active users, a
     - [ ] [DOM manipulation](https://www.youtube.com/watch?v=0ik6X4DJKCc)
     - [ ] [Fetch API / AJAX (XHR)](https://www.youtube.com/watch?v=-ZI0ea5O2oA)
 - [ ] **Action!** Build interractive web pages
-
-### 🔗 Build, Build and Build!
-> Now that you know enough about the front-end and back-end, consolidate your knowledge by building full-stack web apps. The goal is not to do it perfectly, but to understand how web apps work before introducing other abstractions like frameworks/libraries, transpilers, etc.. 
-
-- [ ] [How the front-end connects to the back-end](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
-- [ ] Building for learning:
-    - [ ] **To Do App** — start with some basic CRUD application to learn how to setup an app and work with the database. Challenge yourself and add authentication and user permissions.
-    - [ ] **Ecommerce website** — Along with basic CRUD and Authentication that most eCommerce site’s will need, you’ll learn more about complex database relationships when it comes to adding Products, Orders, Tags and more. Building an eCommerce site will teach you a lot about designing your models and complex queries. Let’s also add search, pagination and user roles to that equation.
-    - [ ] **Social Network** — A social network will also force you to learn about designing your database. For example, how would you build out the “friends” or “following” feature’s? What about likes and determining what post a user will see in their feed.
-- [ ] Building for fun based on [interests ⇩](#interests)
-    ...
-
-[⇪ **Back up**](#dojo)
-<hr>
 
 ### 🚀 Ready, set, deploy!
 Now that you have a functional full-stack web app, here is how to make it available to everyone else on the internet.
@@ -106,33 +114,42 @@ Now that you have a functional full-stack web app, here is how to make it availa
     Services: [Namecheap](https://www.namecheap.com/domains/), [Cloudflare](https://www.cloudflare.com/en-gb/products/registrar/)
 - **Associate the Domain Name to the Server**: This involves configuring DNS settings to point your domain name to the IP address of your server, usually by setting A or CNAME records through your domain registrar’s panel.
 
+<details>
+    <summary>Practice Projects</summary>
+
+Now that you know enough about the front-end and back-end, consolidate your knowledge by building full-stack web apps. The goal is not to do it perfectly, but to understand how web apps work before introducing other abstractions like frameworks/libraries, transpilers, etc.. 
+
+- [ ] [How the front-end connects to the back-end](https://stackoverflow.com/questions/68164444/how-to-connect-backend-and-frontend)
+- [ ] Building for learning:
+    - [ ] **Front-to-Back** — as an appetizer build a simple app that takes user input (form), sends it to the back-end, process it then returns some valuable results. Create one page and 1 backend endpoint.
+    => [Clearthought](https://github.com/rurangiza/clearthought) (In progress)
+    - [ ] **CRUD** — now build a basic CRUD application to learn how to work with the database. Challenge yourself and add authentication and user permissions.
+    => [Family Tree](https://github.com/rurangiza/family-tree) (Not started)
+    - [ ] **Ecommerce website** — Along with basic CRUD and Authentication that most eCommerce site’s will need, you’ll learn more about complex database relationships when it comes to adding Products, Orders, Tags and more. Building an eCommerce site will teach you a lot about designing your models and complex queries. Let’s also add search, pagination and user roles to that equation.
+    => []()
+    - [ ] **Social Network** — A social network will also force you to learn about designing your database. For example, how would you build out the “friends” or “following” feature’s? What about likes and determining what post a user will see in their feed.
+    => [Art de Produire](https://github.com/rurangiza/artdeproduire) (Not started)
+
+**Useful Ressources**
+- [Good practices for Python projects](https://docs.python-guide.org/) (online book)
+
+</details>
+--
+
 [⇪ **Back up**](#dojo)
 <hr>
 
-## Interests
-#### A.I
-- [ ] [The AI Engineer Path](https://scrimba.com/learn/aiengineer) by Scrimba
-- [ ] [DeepLearning.ai](https://www.deeplearning.ai/)
-#### Tools For Thought
-keywords: `the creative process` `Ideas` `generating ideas` `connecting ideas` `environment for ideas to grow` `explorable explanations` `the interface is the product` `information design` `personal software`
-- **Quotes**
-    > *For me ideas are very important. Bringing ideas into the world is one of the most important thing people can do. And I think that great ideas in the form of great art, stories, inventions, scientific theories,.. these things take on life of their own and give meaning to our lives.*
-    ***Bret Victor** in [Inventin on Principle](https://youtu.be/PUv66718DII?t=72)
-    
-    > Bret's principles: 
-        1. C*reators need an immediate connexion to what they're creating to know what feels right. “So much of creation is discovery and you cannot discover anything if you don't see what you're doing”*
+## Computer Science Fundamentals
+- [ ] Computer Networks
+- [ ] Database Management Systems (DBMS)
+- [ ] Operating Systems (O.P)
+- [ ] Object Oriented Programming (OOP)
 
-    > Ideas start out tiny, weak and fragile. In order to develop and mature, they need an environment where the creator can work with them, take care of them, feed them, let them grow. 
+[⇪ **Back up**](#dojo)
+<hr>
 
-    > *Nothing is More Powerful than an Idea whose Time has Come*
-    ***Victor Hugo**, The Future of Man*
-
-    > *For years, words on a page were the best way to spread ideas across space and time.* *David Perell, [Tools for Thought](https://perell.com/note/tools-for-thought/)*
-- **People**
-    - Bret Victor: Inventing on Principle, Media for Thinking the Unthinkable, The Humane Representation of Thought,  The Future of Programming, Seeing Spaces, Stop Drawing Dead Fish, Drawing Dynamic Visualizations
-    - Ada Lovelace
-    - Douglas Engelbart
-    - Alan Kay
+## System Design
+...
 
 [⇪ **Back up**](#dojo)
 <hr>
