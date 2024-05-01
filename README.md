@@ -19,40 +19,41 @@
 > [!Note]
 > For each data structure, algorithm, etc.. first learn the theory and concepts, then implement it in code and finaly solve related problems (6 easy, 3 medium, 1 hard).
 
-||Data Structures |Implementation|Exercices|
+|||||
 |-|:-|:-|:-|
-|<ul><li>- [ ] </li>|[Dynamic Arrays](https://en.wikipedia.org/wiki/Dynamic_array)|[C](./src/theory/data_structures/vector.c) - [Python](./src/theory/data_structures/vector.py)|[Leetcode](https://leetcode.com/tag/array/)|
-|<ul><li>- [ ] </li>|[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/stack/)|
-|<ul><li>- [ ] </li>|[Linked-List](https://en.wikipedia.org/wiki/Linked_list)|[C](./src/theory/data_structures/singly-linked-list.c) - [Python](./src/theory/data_structures/singly-linked-list.py)|[Leetcode](https://leetcode.com/tag/linked-list/)|
-|<ul><li>- [ ] </li>|[Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/queue/)|
-|<ul><li>- [ ] </li>|[Hash Tables](https://en.wikipedia.org/wiki/Hash_table)||[Leetcode](https://leetcode.com/tag/hash-table/)|
-|<ul><li>- [ ] </li>|[Binary Trees](https://en.wikipedia.org/wiki/Binary_tree)||[Leetcode](https://leetcode.com/tag/binary-tree/)|
-|<ul><li>- [ ] </li>|[Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/graph/)|
-|<ul><li>- [ ] </li>|[Tries](https://en.wikipedia.org/wiki/Tree_(data_structure))||[Leetcode](https://leetcode.com/tag/trie/)|
-|<ul><li>- [ ] </li>|[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
+||**Data Structures**: way of organizing data for easier processing|**Implementation**|**Exercices**|
+|<ul><li>- [x] </li></ul>|[Dynamic Arrays](https://en.wikipedia.org/wiki/Dynamic_array)|[C](./src/theory/data_structures/vector.c) - [Python](./src/theory/data_structures/vector.py)|[Leetcode](https://leetcode.com/tag/array/)|
+|<ul><li>- [x] </li></ul>|[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))|[Python](./src/theory/data_structures/stack.ipynb)|[Leetcode](https://leetcode.com/tag/stack/)|
+|<ul><li>- [x] </li></ul>|[Linked-List](https://en.wikipedia.org/wiki/Linked_list)|[C](./src/theory/data_structures/singly-linked-list.c) - [Python](./src/theory/data_structures/singly-linked-list.py)|[Leetcode](https://leetcode.com/tag/linked-list/)|
+|<ul><li>- [x] </li></ul>|[Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))|[Python](./src/theory/data_structures/deque.ipynb)|[Leetcode](https://leetcode.com/tag/queue/)|
+|<ul><li>- [ ] </li></ul>|[Hash Tables](https://en.wikipedia.org/wiki/Hash_table)||[Leetcode](https://leetcode.com/tag/hash-table/)|
+|<ul><li>- [ ] </li></ul>|[Binary Trees](https://en.wikipedia.org/wiki/Binary_tree)||[Leetcode](https://leetcode.com/tag/binary-tree/)|
+|<ul><li>- [ ] </li></ul>|[Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/graph/)|
+|<ul><li>- [ ] </li></ul>|[Tries](https://en.wikipedia.org/wiki/Tree_(data_structure))||[Leetcode](https://leetcode.com/tag/trie/)|
+|<ul><li>- [ ] </li></ul>|[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
 |||||
-||**Algorithms**|**Implementation**|**Exercices**|
-|<ul><li>- [ ] </li>|[Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA)||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
-|<ul><li>- [ ] </li>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc)||[Leetcode](https://leetcode.com/tag/sorting/)|
-|<ul><li>- [ ] </li>|[Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp)||[Leetcode](https://leetcode.com/tag/sorting/)|
-|<ul><li>- [ ] </li>|[Binary Search](https://youtu.be/fDKIpRe8GW4?si=WGFySWh7-3bU_iPX)||[Leetcode](https://leetcode.com/tag/binary-search/)|
-|<ul><li>- [ ] </li>|[Breath-First-Search](https://www.youtube.com/watch?v=HZ5YTanv5QE)||[Leetcode](https://leetcode.com/tag/breadth-first-search/)|
-|<ul><li>- [ ] </li>|[Depth-First-Search](https://www.youtube.com/watch?v=Urx87-NMm6c)||[Leetcode](https://leetcode.com/tag/depth-first-search/)|
+||**Algorithms**: step by step instructions for completing a task|**Implementation**|**Exercices**|
+|<ul><li>- [ ] </li></ul>|[Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA)||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
+|<ul><li>- [ ] </li></ul>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc)||[Leetcode](https://leetcode.com/tag/sorting/)|
+|<ul><li>- [ ] </li></ul>|[Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp)||[Leetcode](https://leetcode.com/tag/sorting/)|
+|<ul><li>- [x] </li></ul>|[Binary Search](https://youtu.be/fDKIpRe8GW4?si=WGFySWh7-3bU_iPX)|[Python](./src/theory/algorithms/binary-search.ipynb)|[Leetcode](https://leetcode.com/tag/binary-search/)|
+|<ul><li>- [ ] </li></ul>|[Breath-First-Search](https://www.youtube.com/watch?v=HZ5YTanv5QE)||[Leetcode](https://leetcode.com/tag/breadth-first-search/)|
+|<ul><li>- [ ] </li></ul>|[Depth-First-Search](https://www.youtube.com/watch?v=Urx87-NMm6c)||[Leetcode](https://leetcode.com/tag/depth-first-search/)|
 |||||
-||**Techniques**|**Implementation**|**Exercices**|
-|<ul><li>- [ ] </li>|[Two Pointers](https://www.youtube.com/watch?v=-gjxg6Pln50)||[Leetcode](https://leetcode.com/tag/two-pointers/)|
-|<ul><li>- [ ] </li>|[Prefix Sum](https://www.youtube.com/watch?v=7pJo_rM0z_s)||[Leetcode](https://leetcode.com/tag/prefix-sum/)|
-|<ul><li>- [ ] </li>|[Sliding Window](https://www.youtube.com/watch?v=p-ss2JNynmw)||[Leetcode](https://leetcode.com/tag/sliding-window/)|
+||**Techniques**: common ways of approaching common problems|**Implementation**|**Exercices**|
+|<ul><li>- [ ] </li></ul>|[Two Pointers](https://www.youtube.com/watch?v=-gjxg6Pln50)||[Leetcode](https://leetcode.com/tag/two-pointers/)|
+|<ul><li>- [ ] </li></ul>|[Prefix Sum](https://www.youtube.com/watch?v=7pJo_rM0z_s)||[Leetcode](https://leetcode.com/tag/prefix-sum/)|
+|<ul><li>- [ ] </li></ul>|[Sliding Window](https://www.youtube.com/watch?v=p-ss2JNynmw)||[Leetcode](https://leetcode.com/tag/sliding-window/)|
 |||||
-||**Math**|**Ressources**|**Exercices**|
-|<ul><li>- [ ] </li>|Algebra|[Khan Academy](https://en.khanacademy.org/math/algebra)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
-|<ul><li>- [ ] </li>|Combinatorix|[Khan Academy](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:prob-comb)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
-|<ul><li>- [ ] </li>|Modular Arithmetic|[Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
-|<ul><li>- [ ] </li>|Number Theory|[Khan Academy](https://www.youtube.com/playlist?list=PL-BD05SCClbag8KTPzaPzzggJ96aBsVkT)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
+||**Math**: foundationnal knowledge|**Ressources**|**Exercices**|
+|<ul><li>- [ ] </li></ul>|Algebra|[Khan Academy](https://en.khanacademy.org/math/algebra)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
+|<ul><li>- [ ] </li></ul>|Combinatorix|[Khan Academy](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:prob-comb)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
+|<ul><li>- [ ] </li></ul>|Modular Arithmetic|[Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
+|<ul><li>- [ ] </li></ul>|Number Theory|[Khan Academy](https://www.youtube.com/playlist?list=PL-BD05SCClbag8KTPzaPzzggJ96aBsVkT)|[HackerRank](https://www.hackerrank.com/domains/mathematics)|
 
 ### Challenges & Contests
 |Site|Description|Goal|Code|
-|:-:|-|-|:-:|
+|:-|:-|:-:|:-:|
 |[Codewars](https://www.codewars.com/)| Community challenges||/|
 |[CodeForce]()|Competitive Programming||/|
 |[Project Euler]()|Math focused challenges||/|
