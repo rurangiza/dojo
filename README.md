@@ -119,7 +119,7 @@ graph TD
 [Roadmap](https://neetcode.io/roadmap) + Videos / [Plan](https://www.techinterviewhandbook.org/grind75?grouping=weeks)
 
 ## Community Challenges
-Random types of problems for fun and general problem solving skills. Site like [Codewars](https://www.codewars.com/) and [Codeforces](https://codeforces.com/problemset?order=BY_SOLVED_DESC) for competitive programming.
+For more random questions there are sites like [Codewars](https://www.codewars.com/) and [Codeforces](https://codeforces.com/problemset?order=BY_SOLVED_DESC).
 
 [![Profile badge](https://www.codewars.com/users/rurangiza/badges/large)](https://www.codewars.com/users/rurangiza)
 
