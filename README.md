@@ -33,7 +33,7 @@ The basics for writing clean and efficient code.
 |<ul><li>- [ ] </li></ul>|[Tries](https://en.wikipedia.org/wiki/Tree_(data_structure))|||[Leetcode](https://leetcode.com/tag/trie/)|
 |<ul><li>- [ ] </li></ul>|[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))|||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
 ||||||
-||**Algorithms**: step by step instructions for completing a task|**Implementation**|**Exercices**|
+||**Algorithms**: step by step instructions for completing a task|**Theory & Concepts**|**Implementation**|**Exercices**|
 |<ul><li>- [ ] </li></ul>|[Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA)|||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
 |<ul><li>- [ ] </li></ul>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc)|||[Leetcode](https://leetcode.com/tag/sorting/)|
 |<ul><li>- [ ] </li></ul>|[Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp)|||[Leetcode](https://leetcode.com/tag/sorting/)|
@@ -41,7 +41,7 @@ The basics for writing clean and efficient code.
 |<ul><li>- [ ] </li></ul>|[Breath-First-Search](https://www.youtube.com/watch?v=HZ5YTanv5QE)|||[Leetcode](https://leetcode.com/tag/breadth-first-search/)|
 |<ul><li>- [ ] </li></ul>|[Depth-First-Search](https://www.youtube.com/watch?v=Urx87-NMm6c)|||[Leetcode](https://leetcode.com/tag/depth-first-search/)|
 ||||||
-||**Techniques**: common ways of approaching common problems|**Implementation**|**Exercices**|
+||**Techniques**: common ways of approaching common problems|**Theory & Concepts**|**Implementation**|**Exercices**|
 |<ul><li>- [ ] </li></ul>|[Two Pointers](https://www.youtube.com/watch?v=-gjxg6Pln50)|||[Leetcode](https://leetcode.com/tag/two-pointers/)|
 |<ul><li>- [ ] </li></ul>|[Prefix Sum](https://www.youtube.com/watch?v=7pJo_rM0z_s)|||[Leetcode](https://leetcode.com/tag/prefix-sum/)|
 |<ul><li>- [ ] </li></ul>|[Sliding Window](https://www.youtube.com/watch?v=p-ss2JNynmw)|||[Leetcode](https://leetcode.com/tag/sliding-window/)|
