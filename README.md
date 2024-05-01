@@ -47,7 +47,7 @@ The basics for writing clean and efficient code.
 |<ul><li>- [ ] </li></ul>|[Sliding Window](https://www.youtube.com/watch?v=p-ss2JNynmw)|||[Leetcode](https://leetcode.com/tag/sliding-window/)|
 
 ## Blind75+
-Blind75 is a list of the 75 most popular questions in coding interviews, they cover most useful concepts.
+Blind75 is a list of the 75 most popular questions in coding interviews, they cover the most useful concepts.
 
 > [!Important]
 > 2-3 questions/day, 30min/question, pseudocode then code, brute-force approach then optimize, check edge cases.
@@ -119,7 +119,7 @@ graph TD
 [Roadmap](https://neetcode.io/roadmap) + Videos / [Plan](https://www.techinterviewhandbook.org/grind75?grouping=weeks)
 
 ## Community Challenges
-Random types of problems for fun and general problem solving skills. Site like [Codewars](https://www.codewars.com/) and Codeforces for competitive programming.
+Random types of problems for fun and general problem solving skills. Site like [Codewars](https://www.codewars.com/) and [Codeforces](https://codeforces.com/problemset?order=BY_SOLVED_DESC) for competitive programming.
 
 [![Profile badge](https://www.codewars.com/users/rurangiza/badges/large)](https://www.codewars.com/users/rurangiza)
 
