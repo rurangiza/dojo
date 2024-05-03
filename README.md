@@ -30,23 +30,30 @@ The basics for writing efficient code.
 |<ul><li>- [x] </li></ul>|[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)): frequent insert and remove at end = LIFO|[Python](./src/theory/data_structures/stack.ipynb)|[Leetcode](https://leetcode.com/tag/stack/)|
 |<ul><li>- [x] </li></ul>|[Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)): frequent insert at end and remove from front = FIFO|[Python](./src/theory/data_structures/deque.ipynb)|[Leetcode](https://leetcode.com/tag/queue/)|
 |<ul><li>- [x] </li></ul>|[Hash Tables](https://en.wikipedia.org/wiki/Hash_table): order not important, fast read/write/search|[Notes](./src/theory/data_structures/hashmap.ipynb)|[Leetcode](https://leetcode.com/tag/hash-table/)|
-|<ul><li>- [ ] </li></ul>|[Binary Trees](https://en.wikipedia.org/wiki/Binary_tree)||[Leetcode](https://leetcode.com/tag/binary-tree/)|
-|<ul><li>- [ ] </li></ul>|[Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/graph/)|
-|<ul><li>- [ ] </li></ul>|[Tries](https://en.wikipedia.org/wiki/Tree_(data_structure))||[Leetcode](https://leetcode.com/tag/trie/)|
-|<ul><li>- [ ] </li></ul>|[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
+|||||
+||[Binary Trees](https://en.wikipedia.org/wiki/Binary_tree)||[Leetcode](https://leetcode.com/tag/binary-tree/)|
+||[Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/graph/)|
+||[Tries](https://en.wikipedia.org/wiki/Tree_(data_structure))||[Leetcode](https://leetcode.com/tag/trie/)|
+||[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
 |||||
 ||**Algorithms**: step by step instructions for completing a task|**Theory & Implementation**|**Exercices**|
-|<ul><li>- [ ] </li></ul>|[Selection Sort](https://en.wikipedia.org/wiki/Selection_sort), [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort), [Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA) O(n^2)||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
+|<ul><li>- [ ] </li></ul>|[Selection Sort](https://en.wikipedia.org/wiki/Selection_sort), [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort), [Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA) O(n^2)|[Notes](./src/theory/algorithms/sorting-quadratic.ipynb)|[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
 |<ul><li>- [ ] </li></ul>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc), [Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp) O(nlogn)||[Leetcode](https://leetcode.com/tag/sorting/)|
 |<ul><li>- [ ] </li></ul>|[Counting Sort](https://en.wikipedia.org/wiki/Counting_sort) [[2](https://www.youtube.com/watch?v=ZcUdXuzOzeU)] O(n) for limited range!|[Notes](./src/theory/algorithms/counting-sort.ipynb)|[Leetcode](https://leetcode.com/tag/counting-sort/)|
+|<ul><li>- [ ] </li></ul>|[Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort) [[2](https://www.youtube.com/watch?v=rNdTWHQMvOk)] ||[Leetcode](https://leetcode.com/tag/bucket-sort/)|
 |<ul><li>- [x] </li></ul>|[Binary Search](https://youtu.be/fDKIpRe8GW4?si=WGFySWh7-3bU_iPX)|[Python](./src/theory/algorithms/binary-search.ipynb)|[Leetcode](https://leetcode.com/tag/binary-search/)|
-|<ul><li>- [ ] </li></ul>|[Breath-First-Search](https://www.youtube.com/watch?v=HZ5YTanv5QE)||[Leetcode](https://leetcode.com/tag/breadth-first-search/)|
-|<ul><li>- [ ] </li></ul>|[Depth-First-Search](https://www.youtube.com/watch?v=Urx87-NMm6c)||[Leetcode](https://leetcode.com/tag/depth-first-search/)|
+|||||
+||[Breath-First-Search](https://www.youtube.com/watch?v=HZ5YTanv5QE)||[Leetcode](https://leetcode.com/tag/breadth-first-search/)|
+||[Depth-First-Search](https://www.youtube.com/watch?v=Urx87-NMm6c)||[Leetcode](https://leetcode.com/tag/depth-first-search/)|
 |||||
 ||**Techniques**: common ways of approaching common problems|**Theory & Implementation**|**Exercices**|
 |<ul><li>- [ ] </li></ul>|[Two Pointers](https://www.youtube.com/watch?v=-gjxg6Pln50)||[Leetcode](https://leetcode.com/tag/two-pointers/)|
 |<ul><li>- [ ] </li></ul>|[Prefix Sum](https://www.youtube.com/watch?v=7pJo_rM0z_s)||[Leetcode](https://leetcode.com/tag/prefix-sum/)|
 |<ul><li>- [ ] </li></ul>|[Sliding Window](https://www.youtube.com/watch?v=p-ss2JNynmw)||[Leetcode](https://leetcode.com/tag/sliding-window/)|
+|||||
+||**Concepts**|**Theory & Concepts**|**Exercices**|
+||[Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science)): function calling itself, required for trees||Exercices|
+
 
 ## Blind75+
 Blind75 is a list of the 75 most popular questions in coding interviews, they cover the most useful concepts.
@@ -73,19 +80,8 @@ graph TD
     9[<a>Heap/Priority Queue</a>]
     10[<a>Backtracking</a>]
 
-    11[<a>Intervals</a>]
-    12[<a>Greedy</a>]
-    13[<a>Advanced Graphs</a>]
-
     14[<a>Graphs</a>]
     15[<a>1-D DP</a>]
-
-    16[<a>Advanced Graphs</a>]
-    17[<a>Math & Geometry</a>]
-    18[<a>2-D DP</a>]
-
-    18[<a>2-D DP</a>]
-    19[<a>Bit Manipulation</a>]
 
 %% Links
     1---> 2
@@ -103,19 +99,10 @@ graph TD
     7---> 9
     7---> 10
 
-    9---> 11
-    9---> 12
-    9---> 13
 
     10---> 14
     10---> 15
 
-    14---> 16
-    14---> 17
-    14---> 18
-
-    15---> 18
-    15---> 19
 ```
 
 [Roadmap](https://neetcode.io/roadmap) + Videos / [Plan](https://www.techinterviewhandbook.org/grind75?grouping=weeks)
