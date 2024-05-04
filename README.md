@@ -2,16 +2,9 @@
 
 ![](./docs/Room_of_Spirit_and_Time.png)
 
-
-**Outline**
-1. [Data Structures & Algorithms](#data-structures--algorithms)
-2. [Blind75+](#blind75)
-3. [Community Challenges](#community-challenges)
-
 <hr>
 
 ## Data Structures & Algorithms
-The basics for writing efficient code.
 - [x] [Introduction to Data Structures](https://www.youtube.com/watch?v=X8h4dq9Hzq8)
 - [x] [Introduction to Algorithms](https://www.youtube.com/live/4oqjcKenCH8?si=58ALyCO1klKIUVnm)
 - [x] [What is a brute-force method](https://www.youtube.com/watch?v=kdTpUjd71G8)?
@@ -38,7 +31,6 @@ The basics for writing efficient code.
 ||**Algorithms**: step by step instructions for completing a task|**Theory & Implementation**|**Exercices**|
 |<ul><li>- [ ] </li></ul>|[Selection Sort](https://en.wikipedia.org/wiki/Selection_sort), [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort), [Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA) O(n^2)||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
 |<ul><li>- [ ] </li></ul>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc), [Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp) O(nlogn)||[Leetcode](https://leetcode.com/tag/sorting/)|
-|<ul><li>- [ ] </li></ul>|[Counting Sort](https://en.wikipedia.org/wiki/Counting_sort) [[2](https://www.youtube.com/watch?v=ZcUdXuzOzeU)] O(n) for limited range!|[Notes](./src/theory/algorithms/counting-sort.ipynb)|[Leetcode](https://leetcode.com/tag/counting-sort/)|
 |<ul><li>- [x] </li></ul>|[Binary Search](https://youtu.be/fDKIpRe8GW4?si=WGFySWh7-3bU_iPX)|[Python](./src/theory/algorithms/binary-search.ipynb)|[Leetcode](https://leetcode.com/tag/binary-search/)|
 |<ul><li>- [ ] </li></ul>|[Breath-First-Search](https://www.youtube.com/watch?v=HZ5YTanv5QE)||[Leetcode](https://leetcode.com/tag/breadth-first-search/)|
 |<ul><li>- [ ] </li></ul>|[Depth-First-Search](https://www.youtube.com/watch?v=Urx87-NMm6c)||[Leetcode](https://leetcode.com/tag/depth-first-search/)|
@@ -47,92 +39,9 @@ The basics for writing efficient code.
 |<ul><li>- [ ] </li></ul>|[Two Pointers](https://www.youtube.com/watch?v=-gjxg6Pln50)||[Leetcode](https://leetcode.com/tag/two-pointers/)|
 |<ul><li>- [ ] </li></ul>|[Prefix Sum](https://www.youtube.com/watch?v=7pJo_rM0z_s)||[Leetcode](https://leetcode.com/tag/prefix-sum/)|
 |<ul><li>- [ ] </li></ul>|[Sliding Window](https://www.youtube.com/watch?v=p-ss2JNynmw)||[Leetcode](https://leetcode.com/tag/sliding-window/)|
-
-## Blind75+
-Blind75 is a list of the 75 most popular questions in coding interviews, they cover the most useful concepts.
-
-> [!Important]
-> 2-3 questions/day, 30min/question, pseudocode then code, brute-force approach then optimize, check edge cases.
-
-
-```mermaid
-graph TD
-    1[<a>Arrays and Hashing</a>]
-%% Nodes
-
-    2[<a>Two Pointers</a>]
-    3[<a>Stack</a>]
-
-    4[<a>Binary Search</a>]
-    5[<a>Sliding Window</a>]
-    6[<a>Linked List</a>]
-
-    7[<a>Trees</a>]
-    
-    8[<a>Tries</a>]
-    9[<a>Heap/Priority Queue</a>]
-    10[<a>Backtracking</a>]
-
-    11[<a>Intervals</a>]
-    12[<a>Greedy</a>]
-    13[<a>Advanced Graphs</a>]
-
-    14[<a>Graphs</a>]
-    15[<a>1-D DP</a>]
-
-    16[<a>Advanced Graphs</a>]
-    17[<a>Math & Geometry</a>]
-    18[<a>2-D DP</a>]
-
-    18[<a>2-D DP</a>]
-    19[<a>Bit Manipulation</a>]
-
-%% Links
-    1---> 2
-    1---> 3
-
-    2---> 4
-    2---> 5
-    2---> 6
-
-    4---> 7
-    5---> 7
-    6---> 7
-
-    7---> 8
-    7---> 9
-    7---> 10
-
-    9---> 11
-    9---> 12
-    9---> 13
-
-    10---> 14
-    10---> 15
-
-    14---> 16
-    14---> 17
-    14---> 18
-
-    15---> 18
-    15---> 19
-```
-
-[Roadmap](https://neetcode.io/roadmap) + Videos / [Plan](https://www.techinterviewhandbook.org/grind75?grouping=weeks)
-
-## Community Challenges
-For more random questions there are sites like [Codewars](https://www.codewars.com/) and [Codeforces](https://codeforces.com/problemset?order=BY_SOLVED_DESC).
-
-[![Profile badge](https://www.codewars.com/users/rurangiza/badges/large)](https://www.codewars.com/users/rurangiza)
-
-**Helpful Concepts**
-Specific knowledge that is helpful for certain problems.
-
-||||||
-|-|:-:|:-|:-:|:-:|
-||**Topic**: |**Ressources**|**Notes**|**Exercices**|
-|<ul><li>- [ ] </li></ul>|Math|[Algebra](https://en.khanacademy.org/math/algebra), [Combinatorics](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:prob-comb), [Modular Arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic), [Number Theory](https://www.youtube.com/playlist?list=PL-BD05SCClbag8KTPzaPzzggJ96aBsVkT) [[2](https://www.youtube.com/watch?v=KOzByAdxVZ8)]||[HackerRank](https://www.hackerrank.com/domains/mathematics)|
-|<ul><li>- [ ] </li></ul>|REGEX|- [CS50P: Regular Expressions](https://youtu.be/hy3sd9MOAcc?si=sEJobUQ2B4u_HxCc)<br>- [Cheat-Sheet](https://www.rexegg.com/regex-quickstart.html)||[HackerRank](https://www.hackerrank.com/domains/regex)|
-|<ul><li>- [ ] </li></ul>|Encoding|- [Unicode & Character Encodings in Python: A Painless Guide](https://realpython.com/python-encodings-guide/)<br>- [Unicode HOWTO](https://docs.python.org/3/howto/unicode.html)<br>- [Article with long name](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)<br>- [Another article with a long name](https://kunststube.net/encoding/)||/|
+||**Extra**: important concepts and tools|**Theory**|**Exercices**|
+|<ul><li>- [ ] </li></ul>|[Recursion](https://www.youtube.com/watch?v=mz6tAJMVmfM) [[2](https://www.youtube.com/watch?v=IJDJ0kBx2LM)]|||
+|<ul><li>- [ ] </li></ul>|[Backtracking](https://youtu.be/gBC_Fd8EE8A?si=0TLun_jXw3cz3ioF)|||
+|<ul><li>- [ ] </li></ul>|[Regex](https://youtu.be/hy3sd9MOAcc?si=TFtwllcLr8oqeADi), [Encoding in Python](https://realpython.com/python-encodings-guide/)|||
 
 [⇪ **Back up**](#dojo)
