@@ -31,20 +31,12 @@ The basics for writing efficient code.
 |<ul><li>- [x] </li></ul>|[Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)): frequent insert at end and remove from front = FIFO|[Python](./src/theory/data_structures/deque.ipynb)|[Leetcode](https://leetcode.com/tag/queue/)|
 |<ul><li>- [x] </li></ul>|[Hash Tables](https://en.wikipedia.org/wiki/Hash_table): order not important, fast read/write/search|[Notes](./src/theory/data_structures/hashmap.ipynb)|[Leetcode](https://leetcode.com/tag/hash-table/)|
 |||||
-||[Binary Trees](https://en.wikipedia.org/wiki/Binary_tree)||[Leetcode](https://leetcode.com/tag/binary-tree/)|
-||[Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))||[Leetcode](https://leetcode.com/tag/graph/)|
-||[Tries](https://en.wikipedia.org/wiki/Tree_(data_structure))||[Leetcode](https://leetcode.com/tag/trie/)|
-||[Heap](https://en.wikipedia.org/wiki/Heap_(data_structure))||[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
-|||||
 ||**Algorithms**: step by step instructions for completing a task|**Theory & Implementation**|**Exercices**|
 |<ul><li>- [ ] </li></ul>|[Selection Sort](https://en.wikipedia.org/wiki/Selection_sort), [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort), [Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA) O(n^2)|[Notes](./src/theory/algorithms/sorting-quadratic.ipynb)|[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
 |<ul><li>- [ ] </li></ul>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc), [Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp) O(nlogn)||[Leetcode](https://leetcode.com/tag/sorting/)|
 |<ul><li>- [ ] </li></ul>|[Counting Sort](https://en.wikipedia.org/wiki/Counting_sort) [[2](https://www.youtube.com/watch?v=ZcUdXuzOzeU)] O(n) for limited range!|[Notes](./src/theory/algorithms/counting-sort.ipynb)|[Leetcode](https://leetcode.com/tag/counting-sort/)|
 |<ul><li>- [ ] </li></ul>|[Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort) [[2](https://www.youtube.com/watch?v=rNdTWHQMvOk)] ||[Leetcode](https://leetcode.com/tag/bucket-sort/)|
 |<ul><li>- [x] </li></ul>|[Binary Search](https://youtu.be/fDKIpRe8GW4?si=WGFySWh7-3bU_iPX)|[Python](./src/theory/algorithms/binary-search.ipynb)|[Leetcode](https://leetcode.com/tag/binary-search/)|
-|||||
-||[Breath-First-Search](https://www.youtube.com/watch?v=HZ5YTanv5QE)||[Leetcode](https://leetcode.com/tag/breadth-first-search/)|
-||[Depth-First-Search](https://www.youtube.com/watch?v=Urx87-NMm6c)||[Leetcode](https://leetcode.com/tag/depth-first-search/)|
 |||||
 ||**Techniques**: common ways of approaching common problems|**Theory & Implementation**|**Exercices**|
 |<ul><li>- [ ] </li></ul>|[Two Pointers](https://www.youtube.com/watch?v=-gjxg6Pln50)||[Leetcode](https://leetcode.com/tag/two-pointers/)|
