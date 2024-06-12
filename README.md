@@ -2,14 +2,6 @@
 
 ![](./docs/Room_of_Spirit_and_Time.png)
 
-
-**Outline**
-1. [Data Structures & Algorithms](#data-structures--algorithms)
-2. [Blind75+](#blind75)
-3. [Community Challenges](#community-challenges)
-
-<hr>
-
 ## Data Structures & Algorithms
 The basics for writing efficient code.
 - [x] [Introduction to Data Structures](https://www.youtube.com/watch?v=X8h4dq9Hzq8)
@@ -29,11 +21,12 @@ The basics for writing efficient code.
 |<ul><li>- [x] </li></ul>|[Linked-List](https://en.wikipedia.org/wiki/Linked_list): order not important, sequence matters, fast front/mid insert|[C](./src/theory/data_structures/singly-linked-list.c) - [Python](./src/theory/data_structures/singly-linked-list.py)|[Leetcode](https://leetcode.com/tag/linked-list/)|
 |<ul><li>- [x] </li></ul>|[Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)): frequent insert and remove at end = LIFO|[Python](./src/theory/data_structures/stack.ipynb)|[Leetcode](https://leetcode.com/tag/stack/)|
 |<ul><li>- [x] </li></ul>|[Queues](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)): frequent insert at end and remove from front = FIFO|[Python](./src/theory/data_structures/deque.ipynb)|[Leetcode](https://leetcode.com/tag/queue/)|
-|<ul><li>- [x] </li></ul>|[Hash Tables](https://en.wikipedia.org/wiki/Hash_table): order not important, fast read/write/search|[Notes](./src/theory/data_structures/hashmap.ipynb)|[Leetcode](https://leetcode.com/tag/hash-table/)|
+|<ul><li>- [x] </li></ul>|[Hash Tables](https://en.wikipedia.org/wiki/Hash_table): order not important, no duplicates, fast read/write/search|[Notes](./src/theory/data_structures/hashmap.ipynb)|[Leetcode](https://leetcode.com/tag/hash-table/)|
+|<ul><li>- [ ] </li></ul>|[Sets](https://en.wikipedia.org/wiki/Set_(abstract_data_type)): order not important, no duplicates, fast read/write/search, great to compare groups|||
 |||||
 ||**Algorithms**: step by step instructions for completing a task|**Theory & Implementation**|**Exercices**|
 |<ul><li>- [ ] </li></ul>|[Selection Sort](https://en.wikipedia.org/wiki/Selection_sort), [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort), [Insertion Sort](https://www.youtube.com/watch?v=JU767SDMDvA) O(n^2)|[Notes](./src/theory/algorithms/sorting-quadratic.ipynb)|[Leetcode](https://leetcode.com/tag/heap-priority-queue/)|
-|<ul><li>- [ ] </li></ul>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc), [Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp) O(nlogn)||[Leetcode](https://leetcode.com/tag/sorting/)|
+|<ul><li>- [ ] </li></ul>|[Merge Sort](https://www.youtube.com/watch?v=4VqmGXwpLqc), [Quick Sort](https://youtu.be/Hoixgm4-P4M?si=OUJ7I-78ubkbnJtp) O(nlogn)|[Notes](./src/theory/algorithms/sorting-nlogn.ipynb)|[Leetcode](https://leetcode.com/tag/sorting/)|
 |<ul><li>- [ ] </li></ul>|[Counting Sort](https://en.wikipedia.org/wiki/Counting_sort) [[2](https://www.youtube.com/watch?v=ZcUdXuzOzeU)] O(n) for limited range!|[Notes](./src/theory/algorithms/counting-sort.ipynb)|[Leetcode](https://leetcode.com/tag/counting-sort/)|
 |<ul><li>- [ ] </li></ul>|[Bucket Sort](https://en.wikipedia.org/wiki/Bucket_sort) [[2](https://www.youtube.com/watch?v=rNdTWHQMvOk)] ||[Leetcode](https://leetcode.com/tag/bucket-sort/)|
 |<ul><li>- [x] </li></ul>|[Binary Search](https://youtu.be/fDKIpRe8GW4?si=WGFySWh7-3bU_iPX)|[Python](./src/theory/algorithms/binary-search.ipynb)|[Leetcode](https://leetcode.com/tag/binary-search/)|
@@ -44,75 +37,62 @@ The basics for writing efficient code.
 |<ul><li>- [ ] </li></ul>|[Sliding Window](https://www.youtube.com/watch?v=p-ss2JNynmw)||[Leetcode](https://leetcode.com/tag/sliding-window/)|
 |||||
 ||**Concepts**|**Theory & Concepts**|**Exercices**|
-||[Recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science)): function calling itself, required for trees||Exercices|
+|<ul><li>- [ ] </li></ul>|[Recursion](https://youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&si=nf1SDr2ndMU5ENWB): function calling itself, required for trees, backtracking and dynamic programming||[Exercices](https://leetcode.com/tag/recursion/)|
+|<ul><li>- [ ] </li></ul>|[Bit Manipulation](https://youtu.be/NLKQEOgBAnw?si=oVl3SgLRvITKuN7x): fast operates without extra space required||[Exercices](https://leetcode.com/tag/bit-manipulation/)|
+|<ul><li>- [ ] </li></ul>|[Regular Expressions](https://youtu.be/NLKQEOgBAnw?si=oVl3SgLRvITKuN7x) / [2](https://realpython.com/regex-python/): quick match of complex patterns||[Exercices](https://www.hackerrank.com/domains/regex)|
 
 
-## Blind75+
-Blind75 is a list of the 75 most popular questions in coding interviews, they cover the most useful concepts.
+[Neetcode's Roadmap](https://neetcode.io/roadmap)
 
-> [!Important]
-> 2-3 questions/day, 30min/question, pseudocode then code, brute-force approach then optimize, check edge cases.
+## Codeforces
+[![Codeforces Rating of @arurangi](https://cfrating.baoshuo.dev/rating?username=arurangi&style=for-the-badge)](https://codeforces/profile/arurangi)
+#### Topics per rating
+|||||||
+|-|-|:-:|:-|:-:|:-:|
+||Title |Rating|Topics|Notes|Exercices|
+|<ul><li>- [ ] </li></ul>|Newbie|0 - 1199|- Modular Arithmetic<br>- Basic knowledge of primes, multiples, divisors<br>- Euclidean algorithm<br>- Sieve of eatosthenes <br>- Binary modular eponentiation<br>- Combinatorics||Exercices|
+|<ul><li>- [ ] </li></ul>|Pupil|1200 - 1399||||
+|<ul><li>- [ ] </li></ul>|Specialist|1400 - 1599||||
+|<ul><li>- [ ] </li></ul>|Expert|>= 1600||||
 
+## Reminders in Python
 
-```mermaid
-graph TD
-    1[<a>Arrays and Hashing</a>]
-%% Nodes
+#### Converting list to dictionnary counter
+```python
+from collections import Counter
 
-    2[<a>Two Pointers</a>]
-    3[<a>Stack</a>]
-
-    4[<a>Binary Search</a>]
-    5[<a>Sliding Window</a>]
-    6[<a>Linked List</a>]
-
-    7[<a>Trees</a>]
-    
-    8[<a>Tries</a>]
-    9[<a>Heap/Priority Queue</a>]
-    10[<a>Backtracking</a>]
-
-    14[<a>Graphs</a>]
-    15[<a>1-D DP</a>]
-
-%% Links
-    1---> 2
-    1---> 3
-
-    2---> 4
-    2---> 5
-    2---> 6
-
-    4---> 7
-    5---> 7
-    6---> 7
-
-    7---> 8
-    7---> 9
-    7---> 10
-
-
-    10---> 14
-    10---> 15
-
+array = [1, 2, 3, 4, 2, 2, 1, 4]
+count = Counter(arr)
+# Counter({2: 3, 1: 2, 4: 2, 3: 1})
 ```
 
-[Roadmap](https://neetcode.io/roadmap) + Videos / [Plan](https://www.techinterviewhandbook.org/grind75?grouping=weeks)
+#### Declaring 2D array filled with zeros
+```python
+mat = [[0] * m for _ in range(n)]
+```
+#### Sorting tuples by key
+```python
+data.sort(key=lambda x: x[0])
+```
+#### Walrus operator
+```python
+import time
 
-## Community Challenges
-For more random questions there are sites like [Codewars](https://www.codewars.com/) and [Codeforces](https://codeforces.com/problemset?order=BY_SOLVED_DESC).
+def do_something() -> int:
+    sleep(1)
+    return 42
 
-[![Profile badge](https://www.codewars.com/users/rurangiza/badges/large)](https://www.codewars.com/users/rurangiza)
+# slow
+if do_something() == 42:
+    return do_something()
 
-**Helpful Concepts**
-Specific knowledge that is helpful for certain problems.
+# much better
+x = do_something()
+if x == 42:
+    return x
 
-||||||
-|-|:-:|:-|:-:|:-:|
-||**Topic**: |**Ressources**|**Notes**|**Exercices**|
-|<ul><li>- [ ] </li></ul>|Math|[Algebra](https://en.khanacademy.org/math/algebra), [Combinatorics](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:prob-comb), [Modular Arithmetic](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic), [Number Theory](https://www.youtube.com/playlist?list=PL-BD05SCClbag8KTPzaPzzggJ96aBsVkT) [[2](https://www.youtube.com/watch?v=KOzByAdxVZ8)]||[HackerRank](https://www.hackerrank.com/domains/mathematics)|
-|<ul><li>- [ ] </li></ul>|REGEX|- [CS50P: Regular Expressions](https://youtu.be/hy3sd9MOAcc?si=sEJobUQ2B4u_HxCc)<br>- [Cheat-Sheet](https://www.rexegg.com/regex-quickstart.html)||[HackerRank](https://www.hackerrank.com/domains/regex)|
-|<ul><li>- [ ] </li></ul>|Encoding|- [Unicode & Character Encodings in Python: A Painless Guide](https://realpython.com/python-encodings-guide/)<br>- [Unicode HOWTO](https://docs.python.org/3/howto/unicode.html)<br>- [Article with long name](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)<br>- [Another article with a long name](https://kunststube.net/encoding/)||/|
-|<ul><li>- [ ] </li></ul>|Bit Manipulation|- [Bitwise Operators and WHY we use them](https://youtu.be/igIjGxF2J-w?si=qqp_lOOqN2fyj27A)<br>- [Bitwise Operations for Competitive Programming](https://www.youtube.com/watch?v=1um-WUyjess)||/|
-
+# more concise, better? maybe
+if (x := do_something()) == 42:
+    return x
+```
 [⇪ **Back up**](#dojo)
