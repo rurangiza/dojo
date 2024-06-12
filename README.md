@@ -3,7 +3,6 @@
 ![](./docs/Room_of_Spirit_and_Time.png)
 
 ## Data Structures & Algorithms
-The basics for writing efficient code.
 - [x] [Introduction to Data Structures](https://www.youtube.com/watch?v=X8h4dq9Hzq8)
 - [x] [Introduction to Algorithms](https://www.youtube.com/live/4oqjcKenCH8?si=58ALyCO1klKIUVnm)
 - [x] [What is a brute-force method](https://www.youtube.com/watch?v=kdTpUjd71G8)?
