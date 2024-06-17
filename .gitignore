@@ -1,6 +1,7 @@
 # local
 /tmp/
 Environements/
+*venv/
 
 *play.py
 *play.c
